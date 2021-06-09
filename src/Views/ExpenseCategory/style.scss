@@ -1,0 +1,16 @@
+.subject-container{
+    padding: 1.5rem;
+    .subject-form-row{
+    @include flex(center, center, row);
+        .row{
+            width: 15rem;
+            margin-right: 1rem;
+        }
+        .filter-btn{
+            align-self: baseline;
+            height: 2.7rem;
+            width: 9%;
+            @include grayBtn;
+        }
+    }
+}

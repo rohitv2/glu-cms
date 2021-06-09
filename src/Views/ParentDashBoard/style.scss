@@ -1,0 +1,151 @@
+.parent_dashboard_container {
+    .main_container_dashboard {
+        padding: 0 !important;
+        margin: 0 !important;
+        padding: 3.125rem !important;
+        .row {
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+        .wallet__date__container {
+            padding-top: 3.125rem !important;
+        }
+    }
+    // .makeStyles-container-18 {
+    //     background-color: transparent;
+    //     position: absolute;
+    // }
+    .school__container {
+        padding: 3.125rem !important;
+        margin-top: 3.125rem !important;
+    }
+    // .main_container_dashboard_col1 {
+    //     font-family: 'CircularXXWeb-Book';
+    //     margin-top: 3.125rem !important;
+    // }
+    // .main_container_dashboard_col2 {
+    //     padding: 0;
+    //     margin: 0;
+    //     padding-top: 3.125rem !important;
+        
+    //     .card_row1{
+    //         display: flex;
+    //         justify-content: space-around;
+    //     }
+    // }
+    .menu__type2__container {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        background-color: transparent;
+        color: black;
+        .navigation {
+            background-color: transparent;
+            ul {
+                li {
+                    a {
+                        button {
+                            color: black;
+                        }
+                    }
+                }
+            }
+            .heading {
+                font-family: 'CircularXXWeb-Book';
+                font-size: 3rem;
+                margin-right: 1rem;
+                color: black;
+            }
+            .icon-button {
+                .icon {
+                    color: black;
+                    font-size: 2.5rem;
+                }
+            }
+            p {
+                color: black;
+            }
+        }
+    }
+    .main_container {
+        .title__container {
+            padding-top: 13.25rem;
+            padding-left: 3.125rem;
+            .dropdown {
+                display: flex;
+                align-items: center;
+                margin-top: -3.3rem !important;
+                padding-left: 0.7rem;
+            }
+        }
+    }
+
+    .parent__slider{
+        .slick-dots{
+            position: unset;
+            background-color: white;
+        }
+    }
+}
+
+    .card__row {
+        @include flex(center, space-between, row);
+        .small__card {
+            width: calc(50% - 1.5625rem);
+            flex-direction: column;
+            background-color: $white;
+            padding: 1.812rem 1.812rem;
+            font-family: 'CircularXXWeb-Book';
+            
+            .heading {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 2.625rem !important;
+                color: $black;
+                font-family: inherit;
+                // max-height: 56px;
+                line-height: 2.8125rem;
+            }
+            .first__title {
+                font-family: inherit;
+                padding-top: 5.593rem;
+            }
+            .title {
+                font-size: 1.5625rem;
+                font-family: inherit;
+                line-height: 1.875rem;
+            }
+            
+        }
+
+        .card__row {
+            @include flex(center, space-between, row);
+            .small__card {
+                width: calc(50% - 1.5625rem);
+                flex-direction: column;
+                background-color: $white;
+                padding: 1.812rem 1.812rem;
+                font-family: 'CircularXXWeb-Book';
+                
+                .heading {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    font-size: 2.625rem !important;
+                    color: $black;
+                    font-family: inherit;
+                    // max-height: 56px;
+                    line-height: 2.8125rem;
+                }
+                .first__title {
+                    font-family: inherit;
+                    padding-top: 5.593rem;
+                }
+                .title {
+                    font-size: 1.5625rem;
+                    font-family: inherit;
+                    line-height: 1.875rem;
+                }
+                
+            }
+        }
+    }

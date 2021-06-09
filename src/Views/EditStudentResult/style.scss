@@ -1,0 +1,32 @@
+.student-edit-conatiner{
+    padding: 0 3.125rem;
+    margin-top: 3.75rem;
+    font-family: 'CircularXXWeb-Book';
+    .student-edit-header{
+        display: flex;
+        flex-direction: column;
+        .student-edit-name-header{
+            font-family: inherit;
+            font-size: 2.625rem;
+            margin-left: .5rem;
+        }
+    }
+    .studentEdit_horizontalline{
+        border-top-color: rgba(0, 0, 0, 0.25);
+        border-top-style: solid;
+        border-top-width: 1px;
+        margin-top: 5rem;
+        margin-bottom: 3.125rem;
+    }
+    .bottom-part{
+        padding-left: 1.45rem !important;
+        .title{
+            font-size:  1.562rem;
+            line-height: 1.875rem;
+            color: #000;
+            font-weight: 500;
+            margin-top: .7rem;
+        }
+    }
+    
+}

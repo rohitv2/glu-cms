@@ -1,0 +1,163 @@
+.tutor_review_main_container{
+    font-family: 'CircularXXWeb-Book';
+    .tutor_review_text{
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height:2.8125rem;
+        
+    }
+
+    .tutor_review_bigtext{
+        font-family: inherit;
+        font-size: 5rem;
+        line-height:5rem;
+    }
+    .tutor_review_extrasmalltext{
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+    }
+    .tutor_review_paratext{
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height:3.125rem;
+    }
+    .tutor_review_smalltext{
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height:1.875rem;
+    }
+}
+.show_formselect{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.tutor_review_banner{
+    padding-top: 3.8125rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    background-color: hsl(0, 0%, 97%);
+    padding-bottom: 9rem;
+    font-family: 'CircularXXWeb-Book';
+        
+    &_subcontainer{
+        padding-top: 4.375rem;
+        .class_rating_star{
+            display: flex;
+            justify-content: flex-start;
+            span{
+                padding-left: 0.6875rem;
+                padding-top: 0.3rem;
+            }
+        }
+        .tutor_review_tutoringhistroy{
+            padding-top: 3.125rem;
+        }
+        .tutoring_rating{
+            padding-top: 1.5rem;
+        }
+    }
+}
+.tutor_reviews_list{
+    padding-top: 5rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    &_container{
+        padding-top: 3.125rem;
+        .tutor_review_month_name{
+            padding-top: 3.125rem;
+        }
+    }
+}
+.tutor_review_container_array{
+    padding-top: 3.125rem;
+}
+.reusable_month_desc_list{
+    .tutor_review_details{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .star_rating_flex{
+        display: flex;
+        justify-content: flex-start;
+        .svg_star{
+            padding-right: 0.625rem;
+        }
+    }
+    .tutor_review_challenge{
+        font-family: 'CircularXXWeb-Book';
+        &_text{
+            color: #5F5F5F;
+            font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+        }
+    }
+    .tutor_review_description{
+        padding-top: 1.75rem;
+        font-family: 'CircularXXWeb-Book';
+        &_text{
+            color: #5F5F5F;
+            font-family: inherit;
+            font-size: 1.5625rem;
+            line-height:1.875rem;
+        }
+    }
+    .tutor_challenge_review{
+        padding-top: 2.125rem;
+        padding-bottom: 3.47rem;
+        .tutor_review_smalltext{
+            padding-bottom: 1rem;
+        }
+    }
+    .tutor_challenge_submitted{
+        padding-top: 2.125rem;
+    }
+}
+.tutor_review_right_subcontainer_1{
+    label{
+        padding-right: 0.68rem;
+    }
+    .horizontalline_new{
+        margin-top: 5rem;
+    }
+}
+.tutor_review_right_subcontainer_2{
+    .horizontalline_new{
+        margin-top: 5rem;
+    }
+    .see_all_reviews{
+        margin-top: 5.375rem;
+        font-family: 'CircularXXWeb-Book';
+        .see_text{
+            
+            font-family: inherit;
+            font-size: 1.25rem;
+            line-height:1.875rem ;
+        }
+    }
+}
+@media screen and (min-width: 767px){
+    .tutor_review_right_subcontainer_2,.tutor_review_right_subcontainer_1,.tutor_review_heading2wrapper,.tutor_review_descwrapper{
+        padding-left: 3.125rem;
+    }
+    .tutor_review_description{
+        padding-right: 5.625rem;
+    }
+    .tutor_review_month_name{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 3.125rem;
+    }
+}
+@media screen and (max-width: 767px) {
+  
+  .tutor_review_heading2wrapper{
+      padding-top: 1rem;
+  }
+  .tutor_review_parawrapper{
+      padding-top: 1rem;
+  }
+}

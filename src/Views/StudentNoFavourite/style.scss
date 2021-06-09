@@ -1,0 +1,39 @@
+.school__nofav {
+    min-height: 90vh;
+    position: relative;
+
+    .dashboard__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        padding: 2.437rem 3.875rem;
+        font-family: 'CircularXXWeb-Book';
+        .heading {
+            font-size: 2.625rem;
+        }
+        .detail {
+            font-size: 5rem;
+            line-height: 5rem;
+            margin-bottom: 4rem;
+        }
+        .previous {
+            font-size: 1.25rem;
+            grid-column: 2/3;
+            .previousBtn {
+                color: rgb(110, 176, 252);
+            }
+        }
+    }
+    .footer {
+        position: absolute;
+        width: 100%;
+        bottom: 50px;
+    }
+}
+@media only screen and (max-width: 630px) {
+    .school__nofav {
+        .dashboard__wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

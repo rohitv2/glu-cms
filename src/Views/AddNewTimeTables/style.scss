@@ -1,0 +1,53 @@
+.suggestion-conatiner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: .5rem;
+    width: 100% !important;
+    cursor: pointer;
+    .suggestion-item{
+        display: flex;
+        align-items: center;
+        margin: 2px;
+        border:1px solid #d1cccc;
+        width:max-content;
+        padding-right: 10px;
+        .name-text{
+            padding: 5px;
+            font-size: 1.2rem;
+        }
+    }
+}
+.time-chip{
+    position: relative;
+    bottom: 2rem;
+}
+
+.show_students_like{
+    max-height: 150px !important;
+    width: 40% !important;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-shadow: 0 -2px 20px -5px rgba(0,0,0,0.3);
+}
+   
+
+.show_students_like::-webkit-scrollbar {
+    width: 10px;
+}
+
+.show_students_like::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+.show_students_like::-webkit-scrollbar-thumb {
+    background: #888; 
+}  
+.show_students_like::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.show_students_like li{
+    padding: 5px;
+    font-family: 'CircularXXWeb-Book' !important;
+  
+}

@@ -1,0 +1,133 @@
+.video__info__container {
+    font-family: 'CircularXXWeb-Book';
+    .title__name {
+        font-size: 2.625rem;
+        font-family: inherit;
+    }
+    .heading {
+        font-size: 5rem;
+        line-height: 5rem;
+        font-family: inherit;
+    }
+    .class__summary__container {
+        .title {
+            font-size: 2.625rem;
+            line-height: 2.625rem;
+            color: #000000;
+            font-family: inherit;
+        }
+        .summery__heading {
+            font-size: 2.625rem;
+            line-height: 2.625rem;
+            color: #000000;
+            font-family: inherit;
+        }
+        .summery__title {
+            font-size: 1.562rem;
+            line-height: 1.562rem;
+            color: #5f5f5f;
+            margin-top: 3.906rem;
+        }
+        .read__more {
+            color: $primary;
+            font-size: 1.562rem;
+            margin-top: 1.187rem;
+        }
+    }
+    .tag__container {
+        margin-bottom: 6.25rem;
+        .tag__title {
+            font-size: 1.562rem;
+            color: #000000;
+            font-family: inherit;
+            margin-bottom: 1.438rem;
+            margin-top: 4.25rem;
+        }
+        .tag__chip__container {
+            @include flex(center, flex-start, row);
+            border-left: 1px solid $gray;
+            padding-left: 1.5rem;
+            flex-wrap: wrap;
+            .tag__name {
+                border: 1px solid rgba(0, 0, 0, 0.25);
+                padding: 0.5rem 0.625rem;
+                font-size: 1.25rem;
+                margin-right: 0.625rem;
+                margin-bottom: 0.625rem;
+            }
+        }
+    }
+    .resource__container{
+        .horizontal__line{
+            margin-bottom: 2.812rem;
+        }
+        .title__heading{
+            font-size: 2.625rem;
+            font-family: inherit;
+            color: #000000;
+        }
+        .resource{
+            border-left: 1px solid $gray;
+            padding-left: 1.5rem;
+            .resources_subtext{
+                transform: none;
+            }
+            .heading{
+                font-size: 1.562rem;
+                line-height: 1.562rem;
+                margin-bottom: 0.75rem;
+                font-family: inherit;
+                color: #000000;
+            }
+            .subheading{
+                font-size: 1.562rem;
+                font-family: inherit;
+            }
+            .blue__text{
+                color: $primary;
+                font-size: 1.25rem;
+                font-family: inherit;
+                margin-top: 0.5rem;
+                margin-bottom: 1.75rem;
+            }
+            .action__controller{
+                @include flex(center, space-between, row);
+                width: 11rem;
+                .duration{
+                    color: $primary;
+                    margin-top: 1rem;
+                    font-size: 1.562rem;
+                }
+            }
+        }
+    }
+    .watch__next__container{
+        margin-top: 7.031rem;
+        margin-bottom: 9.187rem;
+        .video__information__container{
+            cursor: pointer;
+        }
+        .horizontal__line{
+            margin-bottom: 2.812rem;
+        }
+        .heading{
+            font-size: 2.625rem;
+            font-family: inherit;
+            color: #000000;
+            line-height: 2.625rem;
+        }
+        .set__margin{
+            margin-bottom: 6.25rem;
+        }
+        .image-thumbnail-container{
+            .image-thumbnail{
+                padding: 36%;
+            }
+        }
+        .sub__heading{
+            font-size: 1.937rem;
+            color: #000000;
+            font-family: inherit;
+        }
+    }
+}

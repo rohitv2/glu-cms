@@ -1,0 +1,292 @@
+.rbc-header { 
+    font-size: 12px;
+    font-weight: 400 !important;
+    display: block;
+ }
+
+
+ .calender-container{
+     display: flex;
+     padding: 20px;
+     font-family: "CircularXXWeb-Book" !important;
+ }
+ .event-scheduler{
+     flex: 1;
+ }
+
+ .repeat-option{
+     padding: 10px;
+     font-size: 16px;
+ }
+.Calendar-right{
+    padding: 20px;
+    width: 27%;
+    margin-top: 15px;
+}
+
+
+.rbc-event{
+    background-color: #E5E5E5 !important;
+    color: black;
+    border:  none !important;
+    border-radius: 0px !important;
+}
+
+
+.rbc-toolbar button{
+    padding: 8px !important;
+    width: 80px;
+}
+
+.rbc-timeslot-group{
+    height: 70px !important;
+}
+
+
+
+.rbc-toolbar span:nth-child(1){
+    visibility:  hidden !important;
+}
+
+
+.calender-container .rbc-btn-group{
+    position: absolute !important;
+    right: 0 !important;
+    margin-right: 4rem !important;
+}
+
+.time__table .rbc-btn-group{
+    position: absolute !important;
+    right: 0 !important;
+    margin-right: 5rem !important;
+}
+
+.rbc-btn-group > .rbc-active{
+    background-color: #3177FA !important;
+    color: white !important;
+}
+
+
+.rbc-btn-group > button:first-child:not(:last-child)
+{   
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.rbc-btn-group > button:last-child:not(:first-child)
+{   
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.rbc-toolbar button:hover{
+    background-color: white;
+}
+
+.rbc-toolbar button:active{
+    background-color: white !important;
+}
+
+
+.rbc-header{
+    height: 50px !important;
+    font-size :  16px;
+    position: relative;
+    font-weight: 500 !important;
+    left:2px;
+    color: black;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.rbc-header.rbc-today{
+    color: white !important;
+    background-color: #3177FA;
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.rbc-time-view{
+    border-top: none !important;
+}
+
+.rbc-time-content::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+.rbc-time-content::-webkit-scrollbar-track {
+    background: #f1f1f1 !important; 
+}
+.rbc-time-content::-webkit-scrollbar-thumb {
+    background: #888 !important; 
+}  
+.rbc-time-content::-webkit-scrollbar-thumb:hover {
+    background: #555 !important; 
+}
+
+.rbc-today.rbc-day-bg{
+    margin-left: 2px !important;
+    border: none !important;
+    background-color: white !important;
+
+}
+.rbc-day-bg{
+    border: none !important;
+}
+
+
+.rbc-current-time-indicator{
+    background-color: #EE4557 !important;
+    height: 2px !important;
+}
+
+.react-calendar__tile--active{
+    background-color: #3177FA !important;
+    color: white !important;
+    border-radius: 50%;
+}
+
+.modal-dialog{
+    border: none !important;
+}
+.modal-content{
+    padding: 15px !important;
+    border-top: 2px solid #F1F3F4;
+}
+
+
+.close-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.rbc-day-slot.rbc-today{
+    background-color: white !important;
+}
+
+
+
+
+.modal-body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.modal-body-content{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-top: 15px;
+   
+}
+
+.input-modal{
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1.6rem ;
+    transition: 1s;
+}
+
+.left-icon{
+    font-size: 25px;
+    color:blue;
+    margin-right: 15px;
+}
+
+.time-modal{
+    margin-left: 10px;
+}
+
+.time-modal .date{
+    font-size: 2rem;
+}
+
+.time-modal .startend-time{
+    font-size: 1.2rem;
+}
+
+.time-edit{
+    font-size: 1rem;
+    color: blue;
+}
+
+/* .custom-popover {
+    min-width: 400px;
+    box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
+    background-color: #fafafa;
+    border: none !important;
+    padding: 30px;
+    border-radius: 8px;
+} */
+
+.custom-popover .popover-title{
+    background: none !important;
+    border: none !important;
+}
+
+.popover-body-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.popover-body-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.title-popover-event{
+    font-size: 1.73rem ;
+    font-weight: 500;
+}
+
+.popover-icon{
+    font-size: 25px;
+    color: blue !important;
+    margin-right: 10px;
+}
+
+.desc-popover-event{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.student-header-container{
+    padding: 1.867rem;
+}
+
+.edit-container{
+    display: flex;
+    align-items: center;
+}
+
+.edit-icon{
+    font-size: 20px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.popicon-div{
+    position: absolute;
+    right: 0;
+}
+
+.pop-icon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #5f6368;
+    cursor: pointer;
+}
+

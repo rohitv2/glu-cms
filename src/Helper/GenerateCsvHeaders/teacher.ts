@@ -1,0 +1,1 @@
+export const teacher = ["first_name", "last_name", "email", "gender", "department",  "designation", "phoneNumber"];

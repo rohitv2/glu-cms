@@ -1,0 +1,134 @@
+.tutor_total_recommend{
+    margin-top: 3.75rem;
+    padding: 0 3.125rem;
+    font-family: 'CircularXXWeb-Book';
+    .total_recommend_text{
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+        
+    }
+    .total_recommend_xstext{
+        font-family: inherit;
+        font-size: 1rem;
+        line-height: 1.875rem;
+    }
+    .total_recommend_smalltext{
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+    }
+    .total_recommend_greysmalltext{
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+        color: #5F5F5F;
+    }
+    .total_recommend_smtext{
+font-family: inherit;
+font-size: 1.5625rem;
+line-height: 1.875rem;
+    }
+    .total_recommend_greysmtext{
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 1.875rem;
+        color: #5F5F5F;
+    }
+    .total_recommend_bigtext{
+        // font-family: 'CircularXXTrial';
+        font-family: inherit;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    .total_recommend_container_1{
+        .header_text_container{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .number_container{
+            margin-top: 3.1875rem;
+            .accepted_number_container{
+                padding-top: 1.15625rem;
+            }
+        }
+        .create_button{
+            padding:0.5rem 2.875rem;
+            width: fit-content;
+            border-style: solid;
+            border-color:rgba(0,0,0,0.25);
+            border-width: 1px;
+        }
+    }
+    .total_recommend_container_2{
+        .total_recommend_list_container{
+            margin-top: 4rem;
+        }
+
+    }
+    .reusable_total_recommend_list{
+        .main_header_row{
+            display: flex;
+            justify-content: space-between;
+        }
+        .main_header_editDelete{
+            .edit{
+                padding-right: 1.9375rem;
+            }
+        }
+        .main_subheader_row{
+            padding-top: 1.3125rem;
+            display: flex;
+            justify-content: flex-start;
+            .main_subheader_students{
+                padding-left : 7.4375rem;
+            }
+        }
+        .main_students_list{
+            padding-top: 1.75rem;
+            display: flex;
+            justify-content: flex-start;
+            &_name{
+                padding-right: 0.5rem;
+            }
+        }
+        .show_accepted{
+            margin-top: 1.375rem;
+        }
+
+    }
+    .recommend_line{
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top-color: rgba(0,0,0,0.25);
+        margin-top: 5rem;
+        margin-bottom: 3.125rem;
+    }
+   
+}
+@media screen and (min-width: 768px){
+    .header_text_container{
+        .header_text_2{
+            padding-right: 3.125rem;
+        }
+    }
+    .total_recommend_container_2,.total_recommend_container_3{
+        padding-left: 3.135rem;
+        
+    }
+    .total_recommend_container_1{
+        .create_button{
+            margin-top: 40rem;
+        }
+    }
+    .recommend_accepted_text{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 3.125rem;
+    }
+
+}
+@media screen and (max-width: 768px){
+    
+}

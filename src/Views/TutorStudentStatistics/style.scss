@@ -1,0 +1,64 @@
+.student_result_main{
+    padding: 0 3.125rem;
+    margin-top: 3.75rem;
+    font-family: 'CircularXXWeb';
+    .tutor_statistics_main_text {
+        font-family: inherit;
+        font-size: 2.625rem;
+    }
+    .tutor_statistics_main_time{
+        font-family: inherit;
+        font-size: 2rem;  
+    }
+    .tutor-exam-coatiner-header {
+        display: flex;
+    }
+    .tutor-exam-statistics-description{
+        font-size: 2.625rem;
+        line-height:3.125rem;
+        width: 100%;
+    }
+    .comments-block{
+        display: flex;
+        flex-direction: column;
+        .comment-header{
+            font-family: inherit;
+            font-size: 1.5625rem;
+            line-height: 1.875rem;
+            margin-bottom: 5px;
+        }
+        .comments-text{
+            width: 50%;
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+    }
+    .homework_horizontalline {
+        border-top-color: rgba(0, 0, 0, 0.25);
+        border-top-style: solid;
+        border-top-width: 1px;
+        margin-top: 5rem;
+        margin-bottom: 3.125rem;
+    }
+    .tutor_homework_header_container {
+        .tutor_homework_main_header {
+            display: flex;
+            justify-content: space-between;
+            .header_content_2 {
+                margin-right: 3.125rem;
+            }
+        }
+        .tutor_homework_number_count{
+            margin-top: 3.1875rem;
+            .missing_count{
+                margin-top: 1.15625rem;
+            }
+        }
+        
+    }
+    .edit_delete_container_graph{
+        display: flex;
+        flex-direction: row;
+        background-color: red !important;
+    }
+}

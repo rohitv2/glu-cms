@@ -1,0 +1,91 @@
+.admin-page-container {
+    .card-container{
+        margin-bottom: 0;
+    }
+    .admin-page {
+        position: relative;
+        padding: 3.562rem 3.75rem;
+        height: calc(100vh - 8rem);
+        overflow: hidden;
+        @include disableScroll;
+        @include flex(center, space-between, column);
+
+        .information__name__container{
+           
+            .title{
+                font-size: 1.562rem;
+                line-height: 1.875rem;
+                font-family: inherit;
+                color: $black;
+                cursor: pointer;
+            }
+            .active{
+                color: $titleGray;
+            }
+        }
+        .social-media-container {
+            padding-bottom: 0.4rem 1rem;
+    
+        }
+        .button-container{
+            @include flex(center, center, row);
+            margin-top: 2rem;
+            
+        }
+        .school-information-container{
+            max-height: 71vh;
+            overflow: auto;
+            padding: 0.4rem 1rem;
+            @include disableScroll;
+            .lanline_num__container{
+                @include flex(center, space-between, row);
+                width: 100%;
+                padding: 0 0.937rem;
+                .title{
+                    font-size: 1.562rem;
+                    line-height: 1.875rem;
+                    font-family: inherit;
+                    color: $black;
+                }
+                .add_btn{
+                    font-size: 1.25rem;
+                    line-height: 1.562rem;
+                    color: $primary;
+                    font-family: inherit;
+                }
+            }
+            .phone__container{
+                width: 100%;
+                padding: 0 0.937rem;
+                @include flex(center, space-between, row);
+                .prefix{
+                    width: 40%;
+
+                }
+                .phone__number{
+                    width: 57%;
+                }
+            }
+            .biograpghy__container{
+                width: 100%;
+                margin-bottom: 2rem;
+                .title{
+                    font-size: 1.562rem;
+                    line-height: 1.875rem;
+                    color: $black;
+                    font-family: inherit;
+                    margin-bottom: 0.5rem;
+                }
+                .textbox{
+                    width: 100%;
+                    font-size: 1.562rem;
+                    color: $titleGray;
+                    &:focus{
+                        outline-color: $primary;
+                    }
+                }
+            }
+        }
+       
+    }
+}

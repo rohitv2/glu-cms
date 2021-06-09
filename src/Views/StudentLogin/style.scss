@@ -1,0 +1,45 @@
+.credential__container {
+    padding: 1rem;
+    height: 100vh;
+    .credential__form__container {
+        height: calc(100vh - 10.65rem);
+        @include flex(center, center, row);
+        .form-container {
+            width: 45%;
+            .button-container{
+                margin-top: 3.125rem;
+            }
+            .icon {
+                color: $primary;
+                font-size: 1rem;
+            }
+            .keep__signed {
+                margin: 0;
+                span{
+                    font-size: 1rem;
+                }
+            }
+            .title {
+                font-size: 2.625rem;
+                margin-bottom: 1rem;
+            }
+            .sub__title {
+                font-size: 1.562rem;
+                line-height: 1.562rem;
+                margin-bottom: 2rem;
+            }
+        }
+        .radio-button{
+            .MuiFormControlLabel-label{
+                font-family: 'CircularXXMonoWeb-Regular';
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .forgot__password {
+        position: absolute;
+        left: 1rem;
+        bottom: 1rem;
+        cursor: pointer;
+    }
+}

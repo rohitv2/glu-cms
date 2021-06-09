@@ -1,0 +1,109 @@
+.register-time-container{
+    padding: 0 3.125rem;
+    margin-top: 3.75rem;
+    font-family: 'CircularXXWeb-Book';
+    .register-time-header{
+        display: flex;
+        flex-direction: column;
+        .register_time_main_text {
+            font-family: inherit;
+            font-size: 2.625rem;
+        }
+        .register_time_text1,.register_time_text2{
+            font-size: 4.234rem;
+            line-height: 5rem;
+        }
+        .header_content_3{
+            margin: 1.67rem 0 1.67rem 0
+        }
+    }
+    .card-horizontal{
+        border-bottom-color: rgba(0, 0, 0, 0.25);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        margin-top: 2.125rem;
+        margin-bottom: 2.125rem;
+        padding: 0 3.125rem;
+        width: 97.5%;
+    }
+    .add_button {
+        padding: 1rem 3.12rem 1rem 3.12rem;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.25);
+        border-width: 1px;
+        width: fit-content;
+        margin-left: .812rem;
+        margin-top: 6.123rem;
+    }
+    .student-list{
+        margin-top: 6.3125rem;
+    }
+
+    .student-card-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 3.125rem;
+        .student-card-name{
+            font-size: 2.775rem;
+            line-height: 3rem;
+            width: 20%;
+
+        }
+        .student-card-description{
+            font-size: 1.24rem;
+            width: 25%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+
+        }
+        .student-card-dropdown{
+            flex-basis: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .merit-sanction-block{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30%;
+        }
+        .radio-conatiner{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 200% !important;
+        }
+        .student-card-button{
+            font-size: 1.12rem;
+            cursor: pointer;
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .signal-block{
+            display: inline-block;
+            font-size: 1.342rem;
+            color: #5F5F5F;
+            flex-basis: 12.5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .school-time-signal{
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: .4rem;
+        }
+
+
+    }
+
+}

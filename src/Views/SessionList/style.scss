@@ -1,0 +1,10 @@
+.modal-form{
+    .session-button{
+        @include grayBtn;
+        width: 100%;
+        background-color: $primary;
+        &:hover{
+            background-color: $primary;
+        }
+    }
+}

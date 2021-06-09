@@ -1,0 +1,191 @@
+.footer {
+    padding: 0 3.062rem;
+    font-family: 'CircularXXWeb-Book';
+    .line {
+        background-color: $grayPrimary;
+        margin: 4.562rem 0;
+    }
+    .email-container {
+        @include flex(center, flex-start, row);
+        width: 96%;
+        .join-glu {
+            font-size: 1.562rem;
+            transition: all 0.5s;
+            @include makeFontSmoth(0.2rem, $black);
+            font-weight: 500;
+            font-family: 'CircularXXWeb-Book';
+        }
+        .email {
+            width: 47%;
+            border: none;
+            margin: 0 0.5rem;
+            height: 2.5rem;
+            font-size: 1.562rem;
+            @include makeFontSmoth(0.197rem, #1c1c1c8c);
+            color: #1c1c1c;
+            cursor: pointer;
+            border-bottom: 1px solid $grayPrimary;
+            -webkit-border-radius: 0;
+            border-radius: 0;
+            -webkit-appearance: none;
+            &::placeholder {
+                font-size: 1.562rem;
+                transition: all 0.5s;
+                padding: 0;
+                @include makeFontSmoth(0.2rem, #8b8b8b);
+            }
+            &:focus {
+                outline-color: transparent;
+                outline: 0;
+                outline: none;
+                -webkit-border-radius: 0;
+                border-radius: 0;
+                -webkit-appearance: none;
+            }
+        }
+        .subscribe {
+            font-size: 1.562rem;
+            @include makeFontSmoth(0.2rem, $black);
+            font-weight: 500;
+            text-transform: capitalize;
+            font-family: 'CircularXXWeb-Book';
+            cursor: pointer;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+    .address-padding {
+        // padding-left: 8rem;
+    }
+    .address-container {
+        .title {
+            font-size: 1.562rem;
+            line-height: 1.762rem;
+            transition: all 0.5s;
+            @include makeFontSmoth(0.2rem, $black);
+            font-family: 'CircularXXWeb-Book';
+            font-weight: 500;
+        }
+        .links {
+            display: block;
+            @include makeFontSmoth(0.137rem, $black);
+            font-size: 1.562rem;
+            line-height: 1.762rem;
+            transition: all 0.5s;
+            font-weight: 500;
+        }
+    }
+    .breaker {
+        margin-bottom: 8.5rem;
+    }
+    .build-by {
+        font-size: 1rem;
+        transition: all 0.5s;
+        font-weight: 500;
+        @include makeFontSmoth(0.137rem, $black);
+        margin-bottom: 1rem;
+        font-family: 'CircularXXMonoWeb-Regular';
+        span {
+            a {
+                font-weight: 300;
+                color: #8b8b8b;
+            }
+        }
+    }
+    .glu {
+        font-size: 1rem;
+        transition: all 0.5s;
+        font-weight: 500;
+        font-family: 'CircularXXMonoWeb-Regular';
+        text-align: right;
+        margin-bottom: 1rem;
+        @include makeFontSmoth(0.137rem, $black);
+    }
+    .three__piller__container {
+        position: absolute;
+        right: 1.5rem;
+        img {
+            width: 1.562rem;
+            // filter: blur(0.068rem);
+        }
+    }
+}
+
+//responsive
+@media screen and (max-width: 767px) {
+    .footer {
+        .email-container {
+            flex-wrap: wrap;
+            .join-glu {
+                font-size: 1.8rem;
+                margin-bottom: 1rem;
+            }
+            .email {
+                width: calc(100% - 94px)!important;
+                font-size: 1.8rem;
+                &::placeholder {
+                    font-size: 1.8rem;
+                }
+            }
+            .subscribe {
+                font-size: 1.8rem;
+            }
+        }
+        .address-container {
+            .title {
+                font-size: 1.8rem;
+                line-height: 2rem;
+            }
+        }
+        .three__piller__container {
+            left: 1.7rem;
+            margin-top: 2.5rem;
+        }
+        .build-by {
+            font-size: 0.95rem;
+        }
+        .glu {
+            font-size: 0.95rem;
+            text-align: left;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        .line {
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.15);
+            margin-bottom: 4rem;
+        }
+        .email-container {
+            margin-bottom: 2rem;
+            .email {
+                width: 42%;
+                margin: 0 0.5rem;
+            }
+        }
+        .address-padding {
+            padding-left: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1309px) {
+    .home-wrapper {
+        .footer {
+            .email-container {
+                width: 100%;
+                .join-glu {
+                    font-size: 1.4rem;
+                }
+                .email {
+                    font-size: 1.4rem;
+                }
+                .subscribe {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}

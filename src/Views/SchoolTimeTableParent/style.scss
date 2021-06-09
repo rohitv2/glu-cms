@@ -1,0 +1,127 @@
+.personal_school_timetable{
+    
+    &_subcontainer{
+        padding: 0 3.125rem;
+        margin-top: 3.75rem;
+    }
+    .personal_school_calendarDate{
+        font-family: 'CircularXXWeb-Book';
+        .calendarsubText1,.calendarsubText2{
+            font-family: inherit;
+            font-size: 2.625rem;
+            line-height: 2.8125rem;
+        }
+        .calendarsubText2{
+            float: right;
+        }
+    }
+}
+.school_table_progress_container{
+   
+    .school_horizontalline{
+        border-width: 1px;
+        border-color: rgba(0, 0, 0,0.25);
+        border-style: solid;
+        margin-bottom: 3.125rem;
+    }
+    
+    .big_timetable_date{
+        font-family: 'CircularXXWeb-Book';
+        margin-bottom: 5rem;
+        .calendarText{
+        font-family: inherit;
+        font-size: 5rem;
+        line-height: 5rem;
+        }
+        
+    }
+}
+.school_table_calendar_container{
+    .inActive{
+        color: #5F5F5F;
+    }
+}
+@media screen and(min-width:767px){
+    .calendarsubText2{
+        padding-right: 3.125rem;
+    }
+    .school_table_progress_container{
+        padding: 0 4.0625rem;
+    }
+.school_borderline{
+    border-left-color: rgba(0, 0, 0,0.25);
+    border-left-width: 1px;
+    border-left-style: solid;
+}}
+@media screen and(max-width:767px){
+    .personal_school_calendarDate{
+        margin-bottom: 3.125rem;
+    }
+    .school_table_progress_container{
+        padding: 0 15px;
+    }
+    .school_table_calendar_container{
+        padding: 0 15px;
+    }
+}
+
+
+
+
+  
+
+  
+//   .weekdays {
+//     margin: 0;
+  
+//     background-color: white;
+//   }
+  .school_calendar_component{
+      margin-top: 3.8125rem;
+  }
+  .weekdays li {
+    padding: 1.06rem 0.75rem;
+    display: inline-block;
+    width: 13.6%;
+    color: black;
+    font-size: 1.25rem;
+    line-height: 1.56rem;
+    text-align: center;
+  }
+  
+  .days {
+    
+    background: $white;
+    margin: 0;
+  }
+  
+  .days li {
+    padding: 1.06rem 0.75rem;
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    font-size: 1.25rem;
+    line-height: 1.56rem;
+    text-align: center;
+    color: black;
+  }
+  
+  .days li .active {
+    background: #F0F0F0;
+    padding: 0.6rem;
+    color: black;
+  }
+  
+  /* Add media queries for smaller screens */
+  @media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+  }
+  
+  @media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+  }
+  
+  @media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+  }

@@ -1,0 +1,73 @@
+.tutor_myclasses_container{
+    padding: 0 3.125rem;
+    margin-top: 3.75rem;
+    font-family: 'CircularXXWeb-Book';
+    .tutor_myclasses_header{
+        display:flex;
+        justify-content: space-between;
+        .record_button{
+            border-color:rgba(0,0,0,0.25);
+            border-style: solid;
+            border-width: 1px;
+            padding: 0.5rem 1.3125rem;
+        }
+    }
+    .tutor_myclasses_text{
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 1.875rem;
+    }
+    .tutor_myclasses_extrasmalltext{
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+    }
+    .tutor_myclasses_smalltext{
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 1.875rem;
+    }
+    .tutor_myclasses_xstext{
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+        padding-left: 0.3125rem;
+       
+    }
+    .tutor_myclasses_xxstext{
+        font-family: inherit;
+        font-size: 1rem;
+        line-height: 1.875rem;
+        
+       
+    }
+    .grid_classes_layout{
+        display: grid;
+        margin-top:2.4375rem ;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows:1fr;
+        grid-gap: 3.125rem;
+        .sec{
+           
+            .img_caption{
+                padding-top: 1.3125rem;
+                
+                
+            }
+            .star_rating{
+                display:flex;
+                justify-content: flex-start;
+                padding-top: 0.5rem;
+                .star_pos{
+                    position: relative;
+                    top: -1px;
+                    left:-1px;
+                }
+            }
+        }
+
+    }
+    .show_number_container{
+        margin-top: 5.56rem;
+    }
+}

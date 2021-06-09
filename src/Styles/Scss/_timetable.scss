@@ -1,0 +1,22 @@
+.time__table{
+    padding: 2.5rem;
+    .sub_heading{
+        font-size: 1.875rem;
+        margin-bottom: 1.562rem;
+        font-weight: 500;
+    }
+    div.MuiPaper-elevation2 {
+        box-shadow: none;
+        div{
+            div{
+                div{
+                    @include disableScroll;
+                    max-height: 50rem!important;
+                }
+            }
+        }
+        th.MuiTableCell-root {
+            text-align: center;
+        }
+    }
+}

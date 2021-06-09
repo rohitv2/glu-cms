@@ -1,0 +1,11 @@
+.spacing{
+    .filter__previous__row__container{
+        padding-right: 1rem;
+        .title{
+            font-size: 2.625rem;
+        }
+        .title__sort__container{
+            @include flex(center, space-between, row);
+        }
+    }
+}

@@ -1,0 +1,189 @@
+.left_tags_border {
+    border-left-style: solid;
+    border-left-color: rgba(0, 0, 0, 0.25);
+    border-left-width: 1px;
+}
+
+.horizontalline_new{
+    border-top-color: rgba(0, 0, 0, 0.25);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+// .private_tutor_page{
+//     height: 100vh;
+//     background-color:#F7F7F7;
+// }
+.reusable_private_tutor_banner{
+    background-color: #F7F7F7;
+    padding-top: 5.843rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    // padding-bottom:5rem;
+    font-family: 'CircularXXWeb-Book';
+    .tutor_private_text{
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+    }
+    .private_tutor_bigtext{
+        font-family: inherit;
+        font-size: 5rem;
+        line-height: 5rem;
+        text-overflow: initial;
+    }
+    .private_tutor_smalltext{
+        font-family: inherit;
+        color: #5F5F5F;
+        font-size: 1.25rem;
+        padding-top: 3.125rem;
+        line-height: 1.8125rem;
+    }
+    .private_tutor_container_2{
+        padding-top: 5.135rem;
+        .secondText{
+            display: flex;
+            justify-content: flex-start;
+            .smalltext1{
+                padding-right: 1.5rem;
+            }
+        }
+        
+    }
+
+}
+.reusable_activity_banner{
+    font-family: 'CircularXXWeb-Book';
+    .activity_banner{
+        display: grid;
+        background-color: #F7F7F7;
+        grid-template-rows: 1fr 0.5fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "sec1 sec2"
+        "sec3 sec4";
+        // grid-column-gap: 3.125rem;
+        grid-row-gap: 5.43rem;
+        padding-left:3.125rem;
+        padding-right: 3.125rem;
+        padding-top: 5rem;
+        padding-bottom: 9.0625rem;
+        
+    }
+    .edit_delete_container{
+        display: flex;
+        padding-top: 3.125rem;
+        justify-content: flex-start;
+    }
+    .sec1{
+        grid-area: sec1;
+    }
+    .sec2{
+        grid-area: sec2;
+    }
+    .sec3{
+        grid-area: sec3;
+    }
+    .sec4{
+        grid-area: sec4;
+    }
+    .activity_text{
+        font-family:inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+
+    }
+    .activity_smalltext{
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.825rem;
+    }
+    .activity_bigtext{
+        font-family:inherit;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+}
+.commonFooter{
+    padding-top: 9.0625rem;
+
+}
+.commonGreyFooter{
+    margin-top: 9.0625rem;
+}
+.commonWhiteFooter{
+    background-color: white;
+    padding-top: 9.0625rem;
+}
+.reusable_smallbutton{
+    font-family: 'CircularXXWeb-Book';
+    padding: 0.5rem 2.875rem;
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.25);
+    border-width: 1px;
+    width: fit-content;
+    .small_button_text{
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+    }
+}
+@media only screen and(min-width:767px){
+    .reusable_private_tutor_banner{
+        .private_tutor_right_container,.private_tutor_right_container_2{
+            padding-left: 3.125rem;
+        }
+    }
+    .reusable_activity_banner{
+        .activity_banner{
+            // display: grid;
+            // grid-template-rows: 1fr 1fr;
+            // grid-template-columns: 1fr 1fr;
+            // grid-template-areas: "sec2 sec14"
+            // "sec1 sec3";
+            // .sec2{
+            //     padding-left: 3.125rem;
+            // }
+            .sec2,.sec4{
+                padding-left: 3.125rem;
+            }
+      
+    }
+}
+.horizontalline_md{
+    border-top-color: rgba(0, 0, 0, 0.25);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.left_md_border {
+    border-left-style: solid;
+    border-left-color: rgba(0, 0, 0, 0.25);
+    border-left-width: 1px;
+}
+}
+@media only screen and(max-width:767px){
+    .reusable_private_tutor_banner{
+        .private_tutor_container_2{
+            .text1{
+                padding-top: 5rem;
+            }
+        }
+    }
+    .reusable_activity_banner{
+        .activity_banner{
+
+            grid-template-columns: 1fr;
+            grid-row-gap: 0.43rem;
+            padding-top: 3.125rem;
+            grid-template-rows: 0fr 0fr 0fr 0fr;
+                grid-template-areas: "sec1"
+                "sec4"
+                "sec2"
+                "sec3";
+                .sec1{
+                    padding-bottom: 5rem;
+                }
+                .sec4,.sec2{
+                    padding-bottom: 3.125rem;
+                }
+    }
+}
+}

@@ -1,0 +1,31 @@
+.student-container {
+    .student-form-row {
+        .row {
+            width: calc(100% - 5rem);
+        }
+        .filter-btn {
+            align-self: baseline;
+            height: 2.7rem;
+            width: 9%;
+            @include grayBtn;
+        }
+    }
+}
+.class-routine-table {
+    padding: 1.5rem;
+    .student-form-row {
+        @include flex(center, center, row);
+        .row {
+            width: 20rem;
+            margin-right: 1rem;
+        }
+        .filter-btn {
+            align-self: baseline;
+            height: 2.4rem;
+            align-self: center;
+            width: 9%;
+            @include grayBtn;
+            margin-right: 1.5rem;
+        }
+    }
+}

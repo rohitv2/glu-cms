@@ -1,0 +1,62 @@
+.student-container{
+    padding:6rem;
+    @include flex(center, center, column);
+    .gray-btn{
+        background-color: $darkGray;
+        color: $white;
+        font-size: 0.8rem;
+        text-transform: capitalize;
+        font-weight: 100;
+        width: 18rem;
+        &:hover{
+        background-color: $darkGray;
+        }
+    }
+    .student-form-row{
+        @include flex(center, space-between, row);
+        form{
+            width: 100%;
+        }
+        .row{
+
+            width: calc(100% - 1rem);
+        }
+        .button-container{
+            border-radius: 0.8rem;
+            width: 2.8rem;
+            height: 2.8rem;
+            background-color: #25BDB3;
+            align-self: baseline;
+            .icon-btn{
+                color: $white;
+            }
+        }
+        .delete-btn{
+            background-color: #FF5252;
+        }
+    }
+}
+.multi-step-form-container{
+    padding: 3.437rem;
+    .left_title{
+        font-size: 1.562rem;
+        line-height: 1.875rem;
+        color: $black;
+        font-weight: 500;
+    }
+    .right_title{
+        font-size: 1.562rem;
+        line-height: 1.875rem;
+        color: $black;
+        font-weight: 500;
+    }
+    .button-container{
+        margin-top: 1.937rem;
+        @include flex(center, space-between, row);
+        max-width: 16rem;
+        .max-size{
+            font-size: 1rem;
+            font-family: 'CircularXXWeb-Regular';
+        }
+    }
+}

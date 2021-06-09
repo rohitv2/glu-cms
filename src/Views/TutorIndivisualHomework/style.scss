@@ -1,0 +1,252 @@
+.tutor_indivisual_homework{
+    font-family: 'CircularXXWeb-Book';
+    .leftText{
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+    }
+.container_1{
+    background-color: #F7F7F7;
+    &_1{
+        // padding-left: 3.125rem;
+        // padding-right: 3.125rem;
+        padding-left: 4.0625rem;
+        padding-right: 4.0625rem;
+        padding-top: 3.75rem;
+        padding-bottom: 9.06rem;
+        
+        &_rightcontainer{
+            font-family: 'CircularXXWeb-Book';
+            .rightTitle{
+                font-family: inherit;
+                font-size: 5rem;
+                line-height: 5rem;
+            }
+            .button_container{
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 5rem;
+                font-family: 'CircularXXWeb-Book';
+                .smallText1{
+                    font-family: inherit;
+                    font-size: 1.25rem;
+                    line-height: 1.875rem;
+                    cursor: pointer;
+                }
+                .smallText2{
+                    font-family: inherit;
+                    font-size: 1.25rem;
+                    line-height: 1.875rem;
+                    margin-left: 1.3125rem;
+                    cursor: pointer;
+                }
+            }
+        }
+       
+    }
+}
+.container_2{
+    padding:5.59rem 4.0625rem;
+    .rightContainer_2{
+        font-family: 'CircularXXWeb-Book';
+        .paraText{
+            font-family: inherit;
+            font-size: 2.625rem;
+            line-height: 3.125rem;
+        }
+    }
+}
+
+}
+.resources_play_container_3{
+    // padding: 0 3.125rem;
+    padding:0rem 4.0625rem;
+    font-family: 'CircularXXWeb-Book';
+    .resources_play_container_3_1{
+        padding-top: 3.125rem;
+        
+    }
+    .borderLine{
+        border-left-color: rgba(0, 0, 0, 0.25);
+        border-left-style: solid;
+        border-left-width: 1px;
+    }
+    .resources_text{
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 2.0625rem;
+    }
+    .textArray{
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 1.875rem;
+    }
+    }
+    .resources_container,.students_container{
+        .straight_line{
+            border-style: solid;
+            border-color: rgba(0, 0, 0, 0.25);
+            border-width: 1px;
+            margin-top: 5rem;
+        }
+        .horizontalline_new{
+            margin-top: 5rem;
+        }
+    }
+    .students_container{
+        padding-top: 3.125rem;
+    }
+    
+    .resources_subtext{
+        color: #5F5F5F;
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+    }
+   
+    .mark_or_edit{
+        @include flex(center,space-between,row);
+    }
+    .submissions{
+        margin-top: 1.25rem;
+    }
+    .leftTextPadding{
+        padding-top: 3.125rem;
+    }
+    .complete{
+        margin-top: 5.625rem;
+    }
+    .complete_button{
+        border-color: rgba(0, 0, 0, 0.25);
+        border-width: 1px;
+        border-style: solid;
+        padding: 0.5rem 2rem;
+        font-family: 'CircularXXWeb-Book';
+        .complete_text{
+            font-family: inherit;
+            font-size: 1.25rem;
+            line-height: 1.875rem;
+        }
+    }
+   
+
+
+.reusable_play_banner{
+    font-family: 'CircularXXWeb-Book';
+   .resources_table_component{
+       margin-top: 3.125rem;
+   }
+    .borderLine{
+        border-left-color: rgba(0, 0, 0, 0.25);
+        border-left-style: solid;
+        border-left-width: 1px;
+    }
+    .leftText{
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+    }
+    .resources_text{
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 2.0625rem;
+    }
+    .resources_subtext{
+        color: #5F5F5F;
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+    }
+}
+.reusable_resources_container{
+    font-family: 'CircularXXWeb-Book';
+    .play_section{
+        margin-top: 3.125rem;
+    }
+    .playBar{
+        width: 100%;
+        height: 2px;
+        border-radius: 5px;
+        background-color: #F7F7F7;
+        position: relative;
+        .playProgress{
+            position:absolute;
+            width: 20%;
+            height: 2px;
+            background-color: black;
+        }
+    }
+    .play_container{
+        margin-top: 1.875rem;
+    }
+    .play_text_container{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'CircularXXWeb-Book';
+        .play_text{
+            font-family: inherit;
+            font-size: 1.5625rem;
+            line-height:1.8125rem;
+           
+        }
+    }
+    .reusable_resources_text{
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 2.0625rem;
+    }
+}
+@media screen and (min-width: 767px){
+    .container_1_1{
+        &_rightcontainer{
+            padding:0 3.125rem ;
+        }
+    }
+    .borderLineMain{
+        border-left-color: rgba(0, 0, 0, 0.25);
+        border-left-style: solid;
+        border-left-width: 1px;
+    }
+    .students_container{
+        padding-left: 3.125rem;
+        // padding-right: 3.125rem;
+    }
+    .rightContainer_2{
+        padding: 0 3.125rem;
+    }
+    .resources_container_2{
+        padding-left: 3.125rem;
+    }
+    .resources_container{
+        padding-left: 3.125rem;
+        // padding-right: 3.125rem;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .container_1_1{
+        &_rightcontainer{
+            padding-top:3.125rem;
+        }
+    }
+    .reusable_play_banner{
+        .resources_container_2{
+            padding-left: 15px;
+        }
+        .resources_container{
+            padding-top: 3.125rem;
+        }
+        .outer_play_container{
+            margin-top: 3.125rem;
+            margin-left: 15px;
+        }
+        .outer_textbook_container{
+            margin-left: 15px;
+        }
+    }
+    
+    .submissions_dateTime{
+        margin-top: 1rem;
+    }
+    
+}

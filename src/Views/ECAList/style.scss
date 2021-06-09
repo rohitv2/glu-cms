@@ -1,0 +1,54 @@
+.student-container {
+    .student-form-row {
+        .row {
+            width: calc(100% - 5rem);
+        }
+        .filter-btn {
+            align-self: baseline;
+            height: 2.7rem;
+            width: 9%;
+            @include grayBtn;
+        }
+    }
+}
+.class-routine-table {
+    padding: 1.5rem;
+    .student-form-row {
+        @include flex(center, center, row);
+        .row {
+            width: 20rem;
+            margin-right: 1rem;
+        }
+        .filter-btn {
+            align-self: baseline;
+            height: 2.4rem;
+            align-self: center;
+            width: 9%;
+            @include grayBtn;
+            margin-right: 1.5rem;
+        }
+    }
+}
+
+.selection-wrapper{
+    .selection-container{
+        @include flex(center, flex-start, row);
+        flex-wrap: wrap;
+        // max-height: 4rem;
+        border-radius: 0.3rem;
+        background-color: $lightGray;
+        .selection{
+            background-color: $primary;
+            border-radius: 0.3rem;
+            box-shadow: 0 0 10px -1px rgba(0,0,0,0.2);
+            color: $white;
+            font-size: 0.7rem;
+            padding: 0.4rem;
+            margin: 0.5rem;
+            .icon{
+                font-size: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+.rdrDefinedRangesWrapper {
+    display: none;
+}
+.rdrDateDisplayWrapper {
+    display: none;
+}
+.rdrNextPrevButton {
+    background: $white !important;
+}
+.rdrMonthAndYearPickers {
+    display: none;
+}
+.rdrCalendarWrapper {
+    position: relative;
+    .rdrMonthAndYearWrapper {
+        width: 100%;
+        position: absolute;
+        height: unset;
+        padding-top: 0;
+    }
+    .rdrMonthPicker {
+        display: none;
+    }
+    .rdrYearPicker {
+        display: none;
+    }
+    .rdrMonthName {
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 0;
+        font-size: 1.562rem;
+        color: $black;
+        font-family: 'CircularXXSub-RegularSubset';
+    }
+}
+.rdrDateRangePickerWrapper {
+    padding-top: 1.625rem;
+}
+.rdrWeekDays {
+    padding-top: 2rem !important;
+    .rdrWeekDay {
+        color: $black;
+        font-size: 0.9vw;
+        width: 35px;
+    }
+}
+.rdrDayPassive {
+    .rdrDayNumber {
+        span {
+            color: $black !important;
+            opacity: 0.4;
+        }
+    }
+}
+.rdrMonths{
+    .rdrMonth{
+        width: 50%;
+    }
+}
+
+.rdrDays {
+    .rdrDay {
+        // width: 2.812rem;
+        // height: 2.812rem;
+    }
+    .rdrStartEdge, .rdrEndEdge {
+        border-radius: 50%!important;
+        background-color: $black;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        .rdrDayNumber{
+            span{
+                color: $white;
+                
+            }
+        }
+    }
+    .rdrDayToday .rdrDayNumber span:after {
+        content: none;
+    }
+    .rdrInRange {
+        top: 0;
+        bottom: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        right: 0;
+        background-color: #EDEDED71;
+        .rdrDayNumber{
+            span{
+                color: $black!important;
+            }
+        }
+    }
+    .rdrDayNumber {
+        top: 0;
+        bottom: 0;
+    }
+    .rdrDayStartOfMonth .rdrInRange, .rdrDayStartOfMonth .rdrEndEdge, .rdrDayStartOfWeek .rdrInRange, .rdrDayStartOfWeek .rdrEndEdge {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        left: 0;
+    }
+    .rdrDayEndOfMonth .rdrInRange, .rdrDayEndOfMonth .rdrStartEdge, .rdrDayEndOfWeek .rdrInRange, .rdrDayEndOfWeek .rdrStartEdge {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        right: 0;
+    }
+    .rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span{
+        color: $black;
+    }
+}
+

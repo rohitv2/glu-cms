@@ -1,0 +1,88 @@
+$border: 1px solid #ccc;
+
+.school__info {
+    &__header {
+        background-color: #dad8d8;
+        .fixed__navigation__container {
+            .menu__type2__container {
+                .navigation {
+                    background-color: #dad8d8;
+                }
+            }
+        }
+        .dashboard__wrapper {
+            margin-top: 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 9.273rem 3.875rem;
+            font-family: 'CircularXXWeb-Book';
+            .pic {
+                grid-column: 2/3;
+                width: 24.562rem;
+                height: 24.562rem;
+                margin-bottom: 5.164rem;
+            }
+            .schoolName {
+                grid-column: 1/2;
+                font-size: 2.625rem;
+                line-height: 2.7rem;
+            }
+            .address {
+                font-size: 5rem;
+                line-height: 5rem;
+            }
+            .email {
+                font-size: 1.25rem;
+                grid-column: 2/3;
+                margin-top: 3.5rem;
+            }
+        }
+    }
+    &__section {
+        .dashboard__wrapper {
+            margin: 0 3.875rem;
+            padding-top: 2.25rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            font-family: 'CircularXXWeb-Book';
+            border-top: $border;
+
+            .heading {
+                font-size: 2.625rem;
+            }
+            .detail__box {
+                border-left: $border;
+                padding-left: 2rem;
+                .address {
+                    font-size: 2.625rem;
+                    line-height: 2.7rem;
+                }
+                .about {
+                    font-size: 1.562rem;
+                    margin-top: 3.875rem;
+                    line-height: 1.6rem;
+                    font-family: 'CircularXXSub-RegularSubset';
+                }
+                .more {
+                    margin-top: 1rem;
+                    font-size: 1.562rem;
+                    padding-bottom: 5rem;
+                    border-bottom: $border;
+                }
+                .social__box {
+                    font-size: 1.562rem;
+                    line-height: 1.6rem;
+
+                    .social__heading {
+                        margin-bottom: 0;
+                    }
+                    .social__detail {
+                        margin-bottom: 1.5rem;
+                        font-family: 'CircularXXMonoWeb-Regular';
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.tutor_recommend_container{
+    .tutor_recommend_subcontainer{
+        padding:0 4.0625rem;
+        font-family: 'CircularXXWeb-Book';
+        &_banner{
+            padding-top: 3.75rem;
+            padding-bottom:7.5rem;
+        }
+        &_inputfeild{
+            padding-top: 3.125rem;
+        }
+        .recommendText{
+            font-family: inherit;
+            font-size: 2.625rem;
+            line-height: 2.8125rem;
+        }
+        .recommendContainer{
+            .horizontalline{
+                margin-top: 5rem;
+            }
+        }
+        .recommendClass_container{
+            padding-top: 3.125rem;
+        }
+        .recommendSubject_container{
+            padding-top:3.125rem;
+        }
+        .recommendCancel_container{
+            padding-top: 5rem;
+        }
+    }
+}
+.show_students_like{
+    .students_like_text{
+        font-family: 'CircularXXWeb-Book';
+        font-size: 1.5625rem;
+        line-height: 1.8125rem;
+    }
+    ul{
+        text-decoration: none;
+        list-style: none;
+        li{
+            cursor: pointer;
+        }
+    }
+}
+@media screen and(min-width:767px) {
+    
+    .recommendleftBorder{
+        border-left-style: solid;
+        border-left-width:1px;
+        border-left-color: rgba(0,0,0,0.25);
+    }
+    .recommendSubject_container,.recommendContainer{
+        padding-left:3.125rem;
+    }
+}

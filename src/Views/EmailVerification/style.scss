@@ -1,0 +1,39 @@
+.email_verification_container{
+    height: 100vh;
+    @include flex(center, space-between, column);
+    .logo-container{
+        align-self: flex-end;
+        padding-right:  3.062rem;
+        .logo{
+            font-size: 3rem;
+            color: $black;
+        }
+    }
+    .center_content{
+        .heading{
+            font-size: 7.5rem;
+            margin-bottom: 15.75rem;
+            color: $black;
+            text-align: center;
+        }
+        .sub-heading{
+            font-size: 2.625rem;
+            line-height: 2.625rem;
+            text-align: center;
+
+        }
+    }
+}
+
+@media screen and (max-width:767px){
+    .email_verification_container{
+        .center_content{
+            .heading{
+                font-size: 4rem;
+            }
+            .sub-heading{
+                font-size: 2rem;
+            }
+        }
+    }
+}

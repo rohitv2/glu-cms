@@ -1,0 +1,113 @@
+.tutor_homework_main {
+    padding: 0 3.125rem;
+    margin-top: 3.75rem;
+    font-family: 'CircularXXWeb-Book';
+    .tutor_homework_main_text {
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+    }
+    .tutor_homework_main_lgtext {
+        font-family: inherit;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    .tutor_homework_main_smtext {
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 1.875rem;
+    }
+    .tutor_homework_main_xxstext {
+        font-family: inherit;
+        font-size: 1rem;
+        line-height: 1.875rem;
+    }
+    .tutor_homework_main_smgreytext {
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 1.875rem;
+        color: #5f5f5f;
+    }
+    .tutor_homework_main_xstext {
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+    }
+    &_header {
+        margin-bottom: 4rem;
+    }
+    .homework_horizontalline {
+        border-top-color: rgba(0, 0, 0, 0.25);
+        border-top-style: solid;
+        border-top-width: 1px;
+        margin-top: 5rem;
+        margin-bottom: 3.125rem;
+    }
+    .tutor_homework_header_container {
+        .tutor_homework_main_header {
+            display: flex;
+            justify-content: space-between;
+            .header_content_1 {
+            }
+            .header_content_2 {
+                margin-right: 3.125rem;
+            }
+        }
+        .tutor_homework_number_count{
+            margin-top: 3.1875rem;
+            .missing_count{
+                margin-top: 1.15625rem;
+            }
+        }
+        
+    }
+    .previous_homework{
+        display:flex;
+        justify-content: flex-end;
+        margin-right: 3.125rem;
+        
+    }
+}
+.reusable_homework_main {
+    .homework_main_title {
+        // display: flex;
+        // justify-content: flex-start;
+        margin-bottom: 1.3125rem;
+    }
+    .homework_main_subtitle {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 1.5rem;
+        &_2 {
+            margin-left: 8.25rem;
+        }
+    }
+    .homework_main_submitted{
+        margin-top: 1.3135rem;
+    }
+    .tickcircleicon{
+        font-size: 1rem;
+        margin-right: 0.5625rem;
+    }
+    
+   
+}
+@media screen and(min-width:768px) {
+    .tutor_homework_main {
+        &_container {
+            padding-left: 3.125rem;
+        }
+    }
+    .tutor_homework_header_container{
+        .create_button{
+            margin-top: 35.53rem;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .tutor_homework_header_container{
+        .create_button{
+            margin-top: 3.125rem;
+        }
+    }
+}

@@ -1,0 +1,171 @@
+.personal_school {
+    background-color: $bodyColor;
+    font-family: 'CircularXXWeb-Book';
+    &_container {
+        // padding: 0 3.125rem;
+        padding: 0 4.0625rem;
+        margin-top: 3.125rem;
+    }
+    &_container_2 {
+        // padding: 0 3.125rem;
+        padding: 0 4.0625rem;
+        padding-top: 10rem;
+        background-color: $white;
+        &_col6 {
+            font-family: 'CircularXXWeb-Book';
+            @include flex(center, space-between, row);
+            .subtext {
+                font-family: inherit;
+                font-size: 2.625rem;
+            }
+        }
+        // &_col7{
+
+        //     }
+    }
+    &_background {
+        margin-top: 9.8rem;
+    }
+    .personal_footer {
+        padding-top: 10rem;
+        background-color: $white;
+    }
+}
+.main_subcontainer {
+    font-family: 'CircularXXWeb-Book';
+    padding: 0 1.8rem;
+    .text {
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+    }
+    .subtext_container {
+        font-family: 'CircularXXWeb-Book';
+        padding: 1.3125rem 0;
+        .subtext {
+            font-family: inherit;
+            font-size: 1.5625rem;
+            line-height: 1.875rem;
+        }
+    }
+}
+.tutor_dash_line{
+    border-top-color: rgba(0, 0, 0, 0.25);
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-bottom: 3.125rem;
+}
+.tutor_bar_line{
+    border-top-color: rgba(0, 0, 0, 0.25);
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-bottom: 2.0625rem;
+}
+.personal_school_container_2_col7 {
+    font-family: 'CircularXXWeb-Book';
+    .text {
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+    }
+    .subtext_container {
+        font-family: 'CircularXXWeb-Book';
+        padding: 1.3125rem 0;
+        .subtext {
+            font-family: inherit;
+            font-size: 1.5625rem;
+            line-height: 1.875rem;
+        }
+    }
+
+    .line {
+        height: 1px;
+        border-radius: 0.4rem;
+        background-color: rgba(0, 0, 0, 0.25);
+        width: 100%;
+        margin-bottom: 2.0625rem;
+        position: relative;
+    }
+}
+.reusableProgress {
+    font-family: 'CircularXXWeb-Book';
+    .text {
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+
+    }
+    .progress-bar-header{
+        display: flex;
+        justify-content: space-between;
+        .small-text{
+            color: #5F5F5F;
+            font-size: 1.25rem;
+            line-height: 1.8125rem;
+            cursor: pointer;
+            padding-top: .7rem;
+        }
+    }
+    .subtext_container {
+        font-family: 'CircularXXWeb-Book';
+        padding: 1.3125rem 0;
+        .subtext {
+            font-family: inherit;
+            font-size: 1.5625rem;
+            line-height: 1.875rem;
+        }
+    }
+    .progressBar {
+        border-radius: 0.4rem;
+        background-color: #cfcfcf;
+        width: 75%;
+        height: 0.3rem;
+        margin-bottom: 3.3125rem;
+        position: relative;
+        .bar {
+            position: absolute;
+            width: 25%;
+            height: 0.3rem;
+            background-color: #2267ff;
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .personal_school_container {
+        &_col1 {
+            .card_row2 {
+                padding-top: 3.125rem;
+            }
+        }
+        .set__margin {
+            margin-top: 3.125rem;
+        }
+        &_col2,
+        &_col5 {
+            margin-left: 3.125rem;
+            //.card_row2{
+            //     padding-top: 3.125rem;
+            //}
+        }
+    }
+    .personal_school_container_2 {
+        &_col7 {
+            margin-left: 3.125rem;
+            border-left-width: 1px;
+            border-left-color: #cfcfcf;
+            border-style: solid;
+            .main_subcontainer {
+                padding-left:4.0625rem;
+            }
+        }
+    }
+}
+@media screen and(max-width:768px) {
+    .personal_school_container {
+        &_col5 {
+            .card_row5 {
+                margin-top: 3.125rem;
+            }
+        }
+    }
+}

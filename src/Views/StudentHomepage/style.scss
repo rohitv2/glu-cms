@@ -1,0 +1,142 @@
+.homepage__wrapper {
+    .banner {
+        background-image: $smileGirl;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100vh;
+        width: 100%;
+        .menu__type2__container {
+            .navigation {
+                padding-left: 1.7rem;
+                padding-right: 1.7rem;
+                ul {
+                    li {
+                        a {
+                            button {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                p {
+                    color: #fff;
+                }
+            }
+        }
+        .large__text {
+            font-size: 3rem;
+            color: $white;
+            position: absolute;
+            left: 5rem;
+            bottom: 10rem;
+        }
+        .overy-heading {
+            position: absolute;
+            right: 10rem;
+            bottom: 6rem;
+            .small__heading {
+                font-size: 0.8rem;
+                color: $white;
+            }
+            .large__heading {
+                font-size: 2.5rem;
+                line-height: 2.5rem;
+                color: $white;
+            }
+        }
+    }
+    .next__class__card {
+        padding: 1rem 3.062rem;
+        margin-top: 2.5rem;
+        .title__subtitle__card{
+            padding-left: 4rem;
+        }
+        .title {
+            font-size: 2.625rem;
+            line-height: 2.625rem;
+            color: #000000;
+        }
+        .subtitle {
+            font-size:1.562rem;
+            color: $black;
+        }
+        .blue-button {
+            color: $primary;
+            float: right;
+            font-size: 1.25rem;
+            text-transform: capitalize;
+        }
+        .image-thumbnail-container {
+            .img {
+                height: 70%;
+            }
+        }
+    }
+    .feature__container {
+        padding: 8.437rem 1rem ;
+        .vrboy__container {
+            .image-thumbnail {
+                padding-top: 30%;
+            }
+        }
+        .title {
+            color: $black;
+            font-size: 2.625rem;
+        }
+    }
+    .classes_container {
+        padding: 8.437rem 1rem;
+        margin-bottom: 4rem;
+    }
+    .image__overlay {
+        .img {
+            width: 100%;
+        }
+        .img-overlay-container {
+            .title {
+                margin-bottom: 1rem;
+                font-family: 'CircularXXSub-BookSubset';
+            }
+            .msg {
+                font-size: 3rem;
+            }
+        }
+    }
+    .calender__container {
+        padding: 5rem 3.062rem;
+        margin-bottom: 3rem;
+        .horizontal__line{
+            margin-bottom: 2rem;
+        }
+        .calendar_heading{
+            font-size: 2.625rem;
+            line-height: 2.625rem;
+            font-weight: 500;
+        }
+        .border-left{
+            border-left: 1px solid $lightGray;
+        }
+    }
+    div.total__upcomming__classes {
+        padding:  3.062rem;
+        padding-bottom: 9.062rem;
+        .dot {
+            font-size: 0.5rem;
+        }
+    }
+    .feature__container{
+        margin-bottom: 3rem;
+        .vrboy__container{
+            .image-thumbnail-container {
+                .image-thumbnail{
+                    padding-top: 60%;
+                }
+               
+            }  
+        }
+    }
+    .tutors{
+        padding: 1rem;
+    }
+}

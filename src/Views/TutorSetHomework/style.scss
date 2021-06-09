@@ -1,0 +1,101 @@
+.set_homework_container{
+    &_subcontainer1{
+        // padding-left: 3.125rem;
+        // padding-right: 3.125rem;
+        padding-left: 4.0625rem;
+        padding-right: 4.0625rem;
+    }
+    &_subcontainer2{
+        margin-top: 3.125rem;
+        font-family: 'CircularXXWeb-Book';
+        .homeworkText{
+            font-family: inherit;
+            font-size: 2.625rem;
+            line-height: 2.8125rem;
+        }
+        
+        
+    }
+   .homeSubtext1{
+    font-family: 'CircularXXWeb-Book';
+       padding-top: 3.125rem;
+   }
+   .set_homework_skill_container{
+       padding-top: 3.125rem;
+   }
+
+
+}
+.chip {
+    font-family: 'CircularXXWeb-Book';
+    font-size: 1.7rem;
+    color: #000000;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border: 1px solid $lightGray;
+    position: relative;
+    padding-right: 1.7rem;
+    margin-bottom: 1rem;
+    .close-icon {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        color: #000;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}
+.line_container{
+    padding-top: 3rem;
+}
+.banner_container{
+    
+    padding-top: 3.125rem;
+    padding-bottom: 10rem;
+}
+.publish_cancel_homework{
+    margin-top: 7rem;
+}
+.homework_publish_container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    .homework_publish_button {
+        padding: 0.437rem 2.68rem;
+        margin-right: 1.5625rem;
+        border-color: rgba(0, 0, 0, 0.25);
+        border-style: solid;
+        border-width: 1px;
+        font-family: 'CircularXXWeb-Book';
+        .text {
+            font-family: inherit;
+            font-size: 1.25rem;
+            line-height: 1.5625rem;
+        }
+    }
+    .cancel_button {
+        padding: 0.437rem 0;
+        font-family: 'CircularXXWeb-Book';
+        .text {
+            font-family: inherit;
+            font-size: 1.25rem;
+            line-height: 1.5625rem;
+        }
+    }
+}
+@media screen and (min-width: 767px) {
+    .set_homework_publish_container,.publish_cancel_homework,.homework_date_container{
+        padding-left:3.125rem;
+    }
+    .homeworkBorder{
+        border-left-style: solid;
+        border-left-color: rgba(0,0,0,0.25);
+        border-left-width: 1px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .homeSubtext0{
+    font-family: 'CircularXXWeb-Book';
+       padding-bottom: 3.125rem;
+   }
+}

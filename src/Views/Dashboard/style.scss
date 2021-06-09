@@ -1,0 +1,293 @@
+.card-status.attandece-card {
+    color: $white;
+    background-color: $white;
+    margin-bottom: 1.25rem;
+    .status-header {
+        .status-icon {
+            color: $white;
+        }
+        .status-heading {
+            color: $black;
+            font-size: 1.875rem;
+            text-transform: capitalize;
+        }
+    }
+    .total-no {
+        margin-top: 3.812rem;
+        margin-bottom: 1rem;
+        color: $black;
+        font-size: 3.125rem;
+        font-family: inherit;
+    }
+    .primary__text {
+        color: $primary;
+        font-family: inherit;
+    }
+}
+
+.card-status {
+    padding: 1.875rem;
+    color: $headingPrimary;
+    .status-header {
+        margin-bottom: 1rem;
+        .status-icon {
+            color: inherit;
+            font-size: 2rem;
+            margin-right: 0.4rem;
+        }
+        .status-heading {
+            color: $black;
+            font-size: 1.875rem;
+            font-family: inherit;
+            text-transform: capitalize;
+        }
+        .right-icon-box {
+            align-self: flex-end;
+            border-radius: 0.5rem;
+            width: 2rem;
+            height: 2rem;
+            background-color: #ff5252ad;
+            margin-left: auto;
+            @include flex(center, center, row);
+            .icon {
+                color: $white;
+            }
+        }
+    }
+    .total-no {
+        font-size: 3.125rem;
+        line-height: 3.125rem;
+        color: $black;
+        align-self: center;
+        margin-bottom: 0.2rem;
+        margin-top: 2rem;
+    }
+    .total-status {
+        color: $black;
+        font-size: 1.25rem;
+        margin-bottom: 0.2rem !important;
+    }
+}
+
+// Revenue Chart Styles
+.dashboard-session-card-wrapper {
+    position: relative;
+    height: 100%;
+    @include borderRadius;
+    .menu-options {
+        position: absolute;
+        top: 0.6rem;
+        right: 0.3rem;
+        .menu-list {
+            width: 10rem;
+            height: 10rem;
+            box-shadow: 0 0 20px -1px rgba(0, 0, 0, 0.2);
+            position: absolute;
+            right: 0;
+            top: 43px;
+            background-color: #fff;
+            border-radius: 0.4rem;
+            z-index: 1;
+            .arrow-up {
+                position: absolute;
+                top: -10px;
+                margin-left: 46px;
+                left: 50%;
+                width: 0;
+                height: 0;
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 10px solid #fff;
+            }
+            ul {
+                list-style: none;
+                li {
+                    button {
+                        padding: 0.55rem;
+                        width: 100%;
+                        text-transform: capitalize;
+                        @include flex(center, flex-start, row);
+                        text-align: left;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+    .heading {
+        padding: 1rem;
+        margin: 0;
+        @include flex(center, space-between, row);
+        &:last-child {
+            margin-bottom: 1rem;
+            border-bottom: none;
+        }
+        .head-text {
+            font-size: 1.875rem;
+            font-family: inherit;
+            color: $black;
+            font-weight: 500;
+        }
+        .head-dots {
+            cursor: pointer;
+        }
+    }
+    .revenue-content {
+        @include disableScroll;
+        padding: 1rem;
+        .revenue-week-stat {
+            padding: 1rem;
+            @include flex(center, space-around, row);
+            .sub-text {
+                font-size: 0.9rem;
+                font-weight: 100;
+                color: $textPrimary;
+                margin-left: 1.6rem;
+            }
+            .revenue-count {
+                font-size: 1.3rem;
+                font-weight: 600;
+                @include flex(center, flex-start, row);
+                .bullet-icon {
+                    width: 0.5rem;
+                    height: 0.5rem;
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin-right: 1rem;
+                    background-color: red;
+                }
+                .current {
+                    color: $primary;
+                }
+                .previous {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+.upcomming-event-container {
+    padding: 1rem;
+    .event-header {
+        @include flex(center, space-between, row);
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        .heading {
+            color: $black;
+            font-weight: 500;
+            font-size: 1.875rem;
+        }
+        .icon {
+            color: $primary;
+        }
+    }
+    .event-body {
+        .event-chip-card {
+            @include flex(center, space-between, row);
+            border-radius: 0.3rem;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            .left{
+                align-self: baseline;
+            }
+            .circle {
+                font-size: 1.562rem;
+                color: $black;
+                margin-right: 4.937rem;
+            }
+            .middle {
+                .heading {
+                    color: $black;
+                    font-size: 1.25rem;
+                    line-height: 1.562rem;
+                    font-family: inherit;
+                }
+                .org {
+                    color: $gray;
+                }
+            }
+            .right {
+                .icon {
+                    color: $primary;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+//chart tooltip style
+.tooltip-7785 {
+    box-shadow: 0 0 19px 1px rgba(0, 0, 0, 0.2);
+    color: #000;
+    font-family: 'Roboto';
+    min-width: 5rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    z-index: 99999;
+    background-color: #fff !important;
+    display: block;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    font-size: '2.5em';
+    font-family: 'CircularXXweb-Book';
+}
+.highcharts-series-1 {
+    stroke-dasharray: 5, 8;
+    width: 1px;
+    fill: #fff;
+    stroke: #fff;
+    background-color: #fff;
+}
+.highcharts-point {
+    stroke-dasharray: none;
+}
+
+g.highcharts-axis-labels.highcharts-xaxis-labels text {
+    fill: $gray !important;
+    font-size: 0.9rem !important;
+    font-family: 'CircularXXWeb-Book';
+}
+g.highcharts-axis-labels.highcharts-yaxis-labels text {
+    fill: $black !important;
+    font-size: 0.9rem !important;
+    font-family: 'CircularXXWeb-Book';
+}
+
+.arrow {
+    position: absolute;
+    bottom: -5px;
+    margin-left: -5px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+}
+
+.my-histogram .highcharts-point {
+    stroke-dasharray: 5, 8;
+    width: 1px;
+    background-color: red;
+}
+
+.bottom-margin {
+    margin-bottom: 0.325rem;
+}
+.table_margin {
+    margin-top: 0.325rem;
+}
+.equal__padding {
+    padding: 0.625rem;
+}
+.equal__row__padding {
+    padding: 0.325rem;
+}
+.right__part__padding {
+    padding-left: 1.25rem !important;
+}
+.attendance_column {
+    position: sticky;
+}

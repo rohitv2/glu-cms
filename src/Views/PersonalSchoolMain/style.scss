@@ -1,0 +1,19 @@
+.personal-school-main{
+    font-family: 'CircularXXWeb-Book';
+    padding: 0 3.125rem;
+    padding-top: 3.125rem;
+    display: flex;
+    justify-content: flex-start;
+    .mainHeading1{
+        font-size: 2.625rem !important;
+        cursor: pointer;
+        font-family: inherit;
+    }
+    .mainHeading2{
+        margin-left:1rem;
+        font-size: 2.625rem !important;
+        cursor: pointer;
+        font-family: inherit;
+    }
+
+}

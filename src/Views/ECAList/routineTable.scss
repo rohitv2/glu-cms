@@ -1,0 +1,60 @@
+//overriding style for dashboard table data
+.class-routine-table {
+    // data table style
+    div.MuiPaper-elevation2 {
+        box-shadow: none;
+        .MuiTableHead-root {
+            display: none;
+        }
+        tr.MuiTableRow-root {
+            margin-bottom: 1rem;
+            td.MuiTableCell-root {
+                &:first-child {
+                    padding-left: 1rem;
+                    font-weight: 600;
+                    border-right: 0.5px solid #707070;
+                    text-align: center;
+                }
+            }
+            &:last-child {
+                td.MuiTableCell-root {
+                    border-bottom: none;
+                }
+            }
+        }
+        td.MuiTableCell-root {
+            margin-bottom: 1rem;
+            background-color: #dce1e3;
+            font-weight: 100;
+            font-size: 0.9rem !important;
+            color: #403b3b !important;
+            padding: 0.5rem 1rem;
+        }
+        td.MuiTablePagination-root {
+            background-color: #fff;
+            border-bottom: none;
+        }
+        .card-table-data {
+            display: none;
+        }
+    }
+
+    th.MuiTableCell-root {
+        background-color: #fff;
+        color: #7d7d7e;
+        font-weight: 600;
+        font-size: 0.9rem !important;
+    }
+    table.MuiTable-root {
+        border-collapse: separate;
+        border-spacing: 0 1rem;
+    }
+
+    .Component-horizontalScrollContainer-11 {
+        div {
+            div {
+                // @include disableScroll;
+            }
+        }
+    }
+}

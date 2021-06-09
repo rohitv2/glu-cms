@@ -1,0 +1,8 @@
+.MuiButton-root.gradient-button{
+    background: linear-gradient(to right ,#667EEA, #64B6FF);
+    color: $white;
+    text-transform: capitalize;
+    &:hover{
+        @include buttonBoxShadow;
+    }
+}

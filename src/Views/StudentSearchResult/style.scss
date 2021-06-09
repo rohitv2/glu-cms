@@ -1,0 +1,29 @@
+.school__search {
+    .dashboard__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2.437rem 3.875rem;
+        font-family: 'CircularXXWeb-Regular';
+        .heading {
+            grid-column: 1/3;
+            font-size: 7.5rem;
+            text-align: center;
+        }
+    }
+    .card__box {
+        margin-top: 7.625rem;
+        grid-column: 1/3;
+
+        .card__heading {
+            margin-bottom: 1.937rem;
+        }
+        .card__holder {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 25.6rem);
+            grid-gap: 3rem;
+        }
+    }
+}
+.footer {
+    width: 100%;
+}

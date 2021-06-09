@@ -1,0 +1,129 @@
+.tutor_availablity_container {
+    input[type='time']::-webkit-calendar-picker-indicator {
+        background: none;
+        display: none;
+    }
+    .tutor_availablity_subcontainer {
+        padding: 0 4.0625rem !important;
+        font-family: 'CircularXXWeb-Book';
+        &_banner {
+            padding-top: 3.75rem;
+            padding-bottom: 10rem;
+        }
+        &_weekly {
+            padding-top: 3.125rem;
+        }
+        .weeklyText,
+        .daysofftext {
+            font-family: inherit;
+            font-size: 2.625rem;
+            line-height: 2.8125rem;
+        }
+        .weeklySubtext {
+            font-family: inherit;
+            font-size: 1.5625rem;
+            line-height: 1.875rem;
+        }
+        .weeklyActive {
+            font-family: inherit;
+            color: black;
+            font-family: inherit;
+            font-size: 2.625rem;
+            line-height: 2.8125rem;
+        }
+        .weeklyInactive {
+            font-family: inherit;
+            color: #8b8b8b;
+            font-family: inherit;
+            font-size: 2.625rem;
+            line-height: 2.8125rem;
+        }
+        .schedule_text_padding2 {
+            padding: 3.125rem 0;
+        }
+        .schedule_text_padding1 {
+            padding-bottom: 3.125rem;
+        }
+        .weekhorizontalline {
+            margin-top: 5rem;
+            border-top-style: solid;
+            border-top-width: 1px;
+            border-top-color: rgba(0, 0, 0, 0.25);
+        }
+        .weekScheduleMap {
+            padding-top: 1.1875rem;
+        }
+        .editDelete_maincontainer {
+            padding-top: 1.1875rem;
+
+            .editDelete_container {
+                display: flex;
+                .weeklySubtext {
+                    padding: 0.2rem 0;
+                }
+            }
+        }
+        .addNew_container {
+            padding-top: 3.125rem;
+        }
+        .addCancel_container {
+            padding-top: 3.125rem;
+        }
+        .savecancel_container {
+            padding-top: 6.3125rem;
+        }
+    }
+}
+.reusable_addCancel_subcontainer {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'CircularXXWeb-Book';
+    .add_button {
+        padding: 0.5rem 3.5625rem;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.25);
+        border-width: 1px;
+    }
+    .cancel_button {
+        padding: 0.5rem 3.5625rem;
+        .addCanceltext {
+            color: #5f5f5f;
+        }
+    }
+    .addCanceltext {
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 1.875rem;
+    }
+}
+@media screen and(min-width:767px) {
+    .tutor_availablity_subcontainer {
+        .weeklyDays,
+        .daysoff_container,
+        .yourfee_container {
+            padding-left: 3.125rem;
+        }
+        .weeklyborderline {
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-left-color: rgba(0, 0, 0, 0.25);
+        }
+        .daysoff_container,
+        .yourfee_container {
+            padding-top: 3.125rem;
+        }
+    }
+}
+// .dividerlline{
+//     border-color: rgba(0, 0, 0, 0.25);
+//     border-width: 1px;
+//     border-style: solid;
+
+// }
+
+.MuiInputBase-input {
+    color: black;
+}
+.abc {
+    color: black;
+}

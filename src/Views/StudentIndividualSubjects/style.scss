@@ -1,0 +1,108 @@
+.student__classes__tutor {
+    .fixed__navigation__container {
+        .menu__type2__container {
+            .navigation {
+                position: fixed;
+                z-index: 3;
+                width: 100%;
+                background: #fff;
+            }
+        }
+    }
+    .banner__holding__container {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        .large__text {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            .title {
+                font-size: 4.5rem;
+                line-height: 4.5rem;
+                text-align: center;
+                font-family: 'CircularXXWeb-Book';
+            }
+            .subtitle {
+                font-size: 1rem;
+                text-align: center;
+                @include flex(center, center, row);
+                font-family: 'CircularXXWeb-Book';
+
+                .icon {
+                    color: $primary;
+                    margin-right: 1rem;
+                }
+            }
+        }
+        .bottom__left__text{
+            position: absolute;
+            left: 1rem;
+            bottom: 1rem;
+            font-size: 0.8rem;
+            font-family: 'CircularXXMonoWeb-Regular';
+        }
+    }
+    .wrapper__scroller {
+        .top__holding__container {
+            height: 100vh;
+            position: relative;
+            .holding {
+                width: 100%;
+                height: 100vh;
+                object-fit: cover;
+            }
+            .large__text {
+                font-size: 3rem;
+                font-family: 'CircularXXWeb-Book';
+                color: $white;
+                position: absolute;
+                left: 5rem;
+                bottom: 10rem;
+            }
+            .left__text {
+                position: absolute;
+                left: 5rem;
+                bottom: 12.5rem;
+                font-size: 2.5rem;
+                font-family: 'CircularXXWeb-Book';
+                color: #fff;
+            }
+            .overy-heading {
+                position: absolute;
+                right: 10rem;
+                bottom: 6rem;
+
+                .small__heading {
+                    font-size: 0.8rem;
+                    color: $white;
+                    font-family: 'CircularXXWeb-Book';
+                }
+                .large__heading {
+                    font-size: 2.5rem;
+                    line-height: 2.5rem;
+                    color: $white;
+                    font-family: 'CircularXXWeb-Book';
+                }
+            }
+        }
+        .left__right__image__container{
+            .image-thumbnail-container{
+                padding-right: 4rem;
+                .image-thumbnail{
+                    padding-top: 78%;
+                }
+            }
+        }
+        .full__width__image{
+            .image__overlay.image-thumbnail{
+                img{
+                    width: 100%;
+                    height: 100vh;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

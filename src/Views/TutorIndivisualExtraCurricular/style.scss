@@ -1,0 +1,167 @@
+.tutor_indivisual_extra_curr_main {
+    font-family: 'CircularXXWeb-Book';
+    .extra_curricular_text {
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+    }
+    .extra_curricular_bigtext {
+        font-family: inherit;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    .extra_curricular_smalltext {
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+    }
+}
+// .grey_footer{
+//     .footer{
+//         background-color: red;
+//     }
+// }
+.tutor_indivisual_extra_curr_container1 {
+    background-color: #f7f7f7;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    padding-top: 5rem;
+    padding-bottom: 9.375rem;
+
+    // .container1_bigtext_wrapper{
+    //     padding-bottom: 5rem;
+    // }
+
+    .container1_right_container {
+        .container1_extrasmall_text_wrapper {
+            padding-top: 5rem;
+            display: flex;
+            justify-content: flex-start;
+            .rating {
+                span {
+                    padding-left: 0.3125rem;
+                }
+            }
+            .edit {
+                color: #5f5f5f !important;
+                padding: 0 1.4375rem;
+            }
+            .delete {
+                color: #5f5f5f !important;
+            }
+        }
+    }
+    .video_container_tutor {
+    }
+}
+.tutor_indivisual_extra_curr_container2 {
+    padding: 0 3.125rem;
+    margin-top: 5.656rem;
+    margin-bottom: 5.565rem;
+}
+.tutor_indivisual_extra_curr_container3 {
+    padding: 0 3.125rem;
+}
+.tutor_indivisual_extra_curr_container4 {
+    padding: 0 3.125rem;
+    margin-top: 5rem;
+    margin-bottom: 9.0625rem;
+}
+.tutor_indivisual_extra_curr_container5 {
+    padding-top: 7rem;
+    background-color: #f7f7f7;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    font-family: 'CircularXXWeb-Book';
+    .horizontalline_new {
+        margin-bottom: 3.125rem;
+    }
+    .container5_left_row {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container5_card_text {
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 1.875rem;
+    }
+    .paratext_wrapper {
+        padding-top: 1.75rem;
+        font-family: 'CircularXXWeb-Book';
+        .container5_card_desc_text {
+            font-family: inherit;
+            font-size: 1.5625rem;
+            color: #5f5f5f;
+            line-height: 1.875rem;
+        }
+    }
+    .see_all_reviews{
+        margin-top: 5.375rem;
+        font-family: 'CircularXXWeb-Book';
+        .see_text{
+            
+            font-family: inherit;
+            font-size: 1.25rem;
+            line-height:1.875rem ;
+        }
+    }
+    .container5_divider{
+        border-top-color: rgba(0,0,0,0.25);
+        border-top-width: 1px;
+        border-top-style: solid;
+        margin-top: 5rem;
+        margin-bottom: 3.125rem;
+    }
+    .star_rating_row{
+        display: flex;
+        justify-content: flex-start;
+        font-family: 'CircularXXWeb-Book';
+        .rating_text{
+            
+                font-family: inherit;
+                padding-left: 0.5rem;
+                font-size: 1.5625rem;
+                line-height: 1.875rem;
+           
+        }
+    }
+    .parasmalltext_wrapper {
+        padding-top: 1rem;
+        font-family: 'CircularXXWeb-Book';
+        .container5_card_desc_smalltext {
+            font-family: inherit;
+            font-size: 1.25rem;
+            color: #5f5f5f;
+            line-height: 1.5625rem;
+        }
+    }
+    
+}
+.tutor_indivisual_curr_line {
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    margin-top: 5rem;
+    margin-bottom: 3.125rem;
+}
+
+@media screen and (min-width: 768px) {
+    .tutor_indivisual_extra_curr_container1 {
+        .container1_right_container {
+            padding-left: 3.125rem;
+        }
+    }
+    .tutor_indivisual_extra_curr_container3 {
+        .extra_curricular_tagContainer {
+            padding-left: 3.125rem;
+        }
+    }
+    .tutor_indivisual_extra_curr_container5 {
+        .right_text {
+            padding-right: 3.125rem;
+        }
+        .container5_right_container {
+            padding-left: 3.125rem;
+        }
+    }
+}

@@ -1,0 +1,97 @@
+
+.tutor_record_container_1{
+    background-color: #F7F7F7;
+    &_1{
+        // padding-left: 3.125rem;
+        // padding-right: 3.125rem;
+        padding-left: 4.0625rem;
+        padding-right: 4.0625rem;
+        padding-top: 3.75rem;
+        padding-bottom: 9.375rem;
+        &_subcontainer{
+            font-family: 'CircularXXWeb-Book';
+            .mainText{
+                font-family: inherit;
+                font-size: 5rem;
+                line-height: 5rem;
+            }
+            .recordButton{
+                margin-top: 5rem;
+                border-color: rgba(0, 0, 0, 0.25);
+                border-style: solid;
+                border-width: 1px;
+                padding:0.499rem 2.75rem;
+                font-family: 'CircularXXWeb-Book';
+                cursor: pointer;
+                .subText{
+                    font-family: inherit;
+                    font-size: 1.25rem;
+                    line-height: 1.5625rem;
+                }
+            }
+        }
+    }
+}
+.record_skill_container{
+    margin-top: 3.125rem;
+    .record_horizontalline{
+        border-top-color: rgba(0, 0, 0, 0.25);
+        border-top-style: solid;
+        border-top-width: 1px;
+        margin-top: 5rem;
+    }
+}
+.recordClass {
+    .horizontalline {
+        margin-top: 5rem;
+    }
+}
+.tutor_record_container_2{
+    margin-top: 6.28125rem;
+    // padding:0rem 3.125rem;
+    padding:0rem 4.0625rem;
+    
+}
+
+.tutor_record_container_1_1,.record_class_title{
+    font-family: 'CircularXXWeb-Book';
+        .text{
+            font-family: inherit;
+            font-size: 2.625rem ;
+            line-height: 2.5rem;
+        }
+}
+
+@media screen and (min-width: 767px) {
+    .tutor_record_container_1_1_subcontainer{
+        padding: 0 3.125rem ;
+    }
+    .recordClass{
+        padding-left:3.125rem ;
+    }
+    .record_skill_container{
+        .record_horizontalline{
+            margin-left: 3.125rem;
+            
+            
+        }
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .tutor_record_container_1_1_subcontainer{
+        padding: 0 15px;
+    }
+    .record_class_title{
+        font-family: 'CircularXXWeb-Book';
+            .text{
+                padding-bottom:3.125rem ;
+            }
+    }
+  
+}
+.upload__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

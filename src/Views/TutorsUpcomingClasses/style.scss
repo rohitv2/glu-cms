@@ -1,0 +1,70 @@
+.tutors__upcoming__classes {
+    .next__wrapper__container {
+        margin-top: 8rem;
+        padding: 0 4rem;
+        width: 100%;
+        .next__wrapper {
+            margin-top: 1rem;
+            &__image__text {
+                @include flex(flex-start, space-between, row);
+                color: $black;
+                &__left {
+                    .text {
+                        font-size: 2.625rem;
+                    }
+                }
+                &__right {
+                    img{
+                        width: calc(100% - 9rem);
+                        margin-left: 9rem;
+                    }
+                }
+            }
+            .next__wrapper__right__part{
+                @include flex(center, space-between, row);
+                padding: 0 10.5rem;
+            }
+            .divider__line{
+                width: 100%;
+            }
+        }
+        .tutor__name__row{
+            margin-top: 6.812rem;
+            color: $black;
+            
+            p.name{
+                font-size: 2.625rem;
+            }
+            .tutor__name__row__right__part{
+                @include flex(center, space-between, row);
+                &__dot{
+                @include flex(center, space-between, row);
+                .icon{
+                    font-size: 1.062rem;
+                }
+                .title{
+                    font-size: 2.625rem;
+                    margin-left: 0.5rem;
+                }
+                }
+            }
+        }
+        .date__image__container{
+            .next__wrapper__image__text__right{
+                width: 50.334%;
+                
+                img{
+                    width: 100%;
+                    float: right;
+                    margin: 0;
+                }
+            }
+        }
+        .horizontal__line{
+            margin-bottom: 2.606rem;
+        }
+        .previous__classes__container{
+            margin-top: 5.062rem;
+        }
+    }
+}

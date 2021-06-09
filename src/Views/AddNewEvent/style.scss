@@ -1,0 +1,41 @@
+.event-container {
+    padding: 1.5rem;
+    .radio-group {
+        @include flex(center, space-between, row);
+        width: 15.5rem;
+        label {
+            margin: 0;
+        }
+        .title {
+            span {
+                &:last-child {
+                    font-size: 0.8rem;
+                    color: $primary;
+                }
+            }
+            .icon {
+                color: $primary;
+            }
+        }
+        .title.absent {
+            span {
+                &:last-child {
+                    font-size: 0.8rem;
+                    color: $headingPrimary;
+                }
+            }
+            .icon {
+                color: $headingPrimary;
+            }
+        }
+    }
+    .description-box{
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid black;
+        border-radius: 0.3rem;
+        &:focus{
+            outline-color: $primary;
+        }
+    }
+}

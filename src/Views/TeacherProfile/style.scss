@@ -1,0 +1,64 @@
+.profile-wrapper {
+    padding: 4rem;
+    .contact-container {
+        .heading {
+            font-size: 1.7rem;
+            font-weight: 500;
+            color: '#403B3B';
+        }
+        .title {
+            font-size: 0.8rem;
+            color: #aaacad;
+            font-weight: 400;
+        }
+        .subtitle {
+            font-size: 0.75rem;
+            color: #007aff;
+            font-weight: 400;
+        }
+    }
+    .divider {
+        height: 1px;
+        background-color: #00000029;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .box-container {
+        .heading {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: '#403B3B';
+            margin-bottom: 1rem;
+        }
+        .title {
+            font-size: 0.8rem;
+            color: #aaacad;
+            font-weight: 300;
+            margin-bottom: 2.5rem;
+        }
+    }
+    .skill-container {
+        .heading {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: '#403B3B';
+            margin-bottom: 1rem;
+        }
+        .skill-chip-container {
+            @include flex(center, flex-start, row);
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            .skill-chip {
+                padding: 0.3rem 1.2rem;
+                box-shadow: 0px 3px 6px #00000029;
+                border-radius: 21px;
+                font-size: 0.7rem;
+                color: #fff;
+                background-color: #007AFF;
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+                font-weight: 100;
+            }
+        }
+    }
+}

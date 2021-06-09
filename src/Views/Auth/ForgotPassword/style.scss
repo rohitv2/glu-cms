@@ -1,0 +1,19 @@
+.reset-password-container{
+    width: 100%;
+    .heading {
+        font-weight: 900;
+        text-align: center;
+    }
+    .subheading{
+        font-size: 0.8rem;
+        color: $primary;
+        text-align: center;
+    }
+}
+.success-icon-container{
+    margin-bottom: 1.5rem;
+    .icon{
+        font-size: 6rem;
+        color: $primary;
+    }
+}

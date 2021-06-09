@@ -1,0 +1,391 @@
+.main_container {
+    background-color: $bodyColor;
+    font-family: 'CircularXXWeb-Book';
+    // padding: 0 0.9375rem;
+    .school-color {
+        color: #8b8b8b;
+    }
+    .card_title_1{
+        font-size: 2.625rem;
+        line-height: 2.812rem;
+        font-family: 'CircularXXWeb-Book';
+    }
+    .main_container_dashboard_title {
+        font-size: 2.625rem;
+        padding-left: 2rem;
+        font-family: inherit;
+        padding-top: 3.75rem;
+    }
+    &_dashboard {
+        // padding: 0 3.125rem !important;
+        padding: 0 4.0625rem !important;
+        &_col1 {
+            font-family: 'CircularXXWeb-Book';
+            margin-top: 3.125rem;
+            .row_main {
+                padding: 2.4375rem;
+            }
+            .card_subtitle {
+                float: right;
+                font-family: inherit;
+                padding-right: 2.4375rem;
+                font-size: 1.25rem;
+                padding-top: 2.06rem;
+            }
+            .card_title {
+                font-family: 'CircularXXWeb-Book';
+                padding-top: 1.9rem;
+                padding-left: 2.4375rem;
+                line-height: 2.8125rem;
+                font-size: 2.625rem!important;
+                max-width: 192px;
+                max-height: 101px;
+            }
+            .card_text {
+                padding-top: 4.315rem;
+                .card_text1 {
+                    font-family: 'CircularXXWeb-Book';
+                    &_1 {
+                        font-family: inherit;
+                        line-height: 2.625rem;
+                        font-size: 2.625rem;
+                    }
+                }
+                .card_text2 {
+                    font-family: 'CircularXXWeb-Book';
+                    &_2 {
+                        font-family: inherit;
+                        line-height: 2.625rem;
+
+                        font-size: 2.625rem;
+                    }
+                }
+            }
+            .card_subtext {
+                font-family: 'CircularXXWeb-Book';
+                padding-top: 0.5625rem;
+                padding-bottom: 8.5rem;
+                &_1 {
+                    font-family: inherit;
+                    line-height: 1.875rem;
+                    font-size: 1.5625rem;
+                }
+            }
+        }
+
+        .main_container_dashboard_col2 {
+            margin-top: 3.125rem;
+        }
+        .main_container_dashboard_col4 {
+           
+            width: 100%;
+            padding: 2.468rem;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            .cardtitle__subtitle__container {
+                font-family: 'CircularXXWeb-Book';
+                @include flex(center, space-between, row);
+                .card_title {
+                    font-family: inherit;
+                    max-width: 31.3rem;
+                    line-height: 5rem;
+                    font-size: 5rem;
+                    letter-spacing: 0rem;
+                }
+                .card_subtitle {
+                    font-family: inherit;
+                    font-size: 1.25rem;
+                    align-self: flex-start;
+                }
+            }
+            .card_subtext {
+                font-family: 'CircularXXWeb-Book';
+                padding-top: 10.9rem;
+                .card_subtext_1 {
+                    font-family: inherit;
+                    font-size: 1.5625rem !important;
+                }
+            }
+        }
+
+    }
+    
+    .menu__type2__container {
+        .navigation {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    .bg-white {
+        background-color: $white;
+    }
+    .main_container2 {
+        width: 100vw;
+        margin-top: 9.375rem;
+        position: relative;
+        
+        &_subcontainer {
+            
+            background-color: #76726e;
+            padding: 0 4.0625rem;
+            .main_container_dashboard_col6 {
+                font-family: 'CircularXXWeb-Book';
+                .card_text {
+                    font-family: inherit;
+                    font-size: 2.625rem;
+                    color: $white;
+                }
+            }
+            .main_container_dashboard_col7 {
+                .image_link {
+                    float: right;
+                    color: $white !important;
+                }
+            }
+            .main_container_dashboard_col8 {
+                font-family: 'CircularXXWeb-Book';
+                padding-top: 4.5rem;
+                .text {
+                    font-family: inherit;
+                    font-size: 5rem;
+                    line-height: 5rem;
+                    color: $white;
+                }
+            }
+            .main_container_dashboard_col9 {
+                padding-top: 5.125rem;
+                font-family: 'CircularXXWeb-Book';
+                .text {
+                    font-size: 5rem;
+                    color: $white;
+                    font-family: inherit;
+                    line-height: 5rem;
+                }
+                .subtext {
+                    color: $white;
+                    font-family: inherit;
+                    font-size: 1.25rem;
+                    padding-top: 5.4rem;
+                    padding-bottom: 9.06rem;
+                }
+            }
+        }
+    }
+    .second_component {
+        background-color: white;
+        // padding: 0 3.125rem;
+        padding: 0 4.0625rem !important;
+        width: 100vw;
+        position: relative;
+    }
+    .main_container3 {
+        padding-top: 9.375rem;
+        background-color: $white;
+        .horizontalline{
+            margin-bottom: 3.125rem;
+        }
+        .main_container_col11 {
+            .personal_container_day_time{
+            @include flex(center, space-between, row);
+            font-family: 'CircularXXWeb-Book';
+            .subtext {
+                font-family: inherit;
+                font-size: 2.625rem;
+            }
+        }
+        }
+        .main_container_col12 {
+            .main_subcontainer_timeline {
+                font-family: 'CircularXXWeb-Book';
+                .text {
+                    font-family: inherit;
+                    line-height: 2.625rem;
+                    font-size: 2.625rem;
+                }
+                .subtext {
+                    font-family: inherit;
+                    padding-top: 0.5625rem;
+                    line-height: 1.5625rem;
+                    font-size: 1.5625rem;
+                    // padding-bottom: 1.5rem;
+                }
+            }
+        }
+    }
+    .main_container_4 {
+        background-color: $white;
+        width: 100vw;
+        padding-top:9.065rem;
+    }
+}
+.timeline_container1,.timeline_container2{
+    margin-bottom: 4.625rem;
+}
+.timeline_container2,.timeline_container3{
+    margin-top: 3.125rem;
+}
+@media screen and (max-width: 767px) {
+    //for mobile view additional
+    .main_container_dashboard_col6{
+        padding: 2rem 0;
+    }
+
+    .card__row {
+        
+        @include flex(center, space-between, column);
+        .small__card {
+            
+            width: calc(100%);
+            flex-wrap: wrap;
+            flex-direction: column;
+            font-family: 'CircularXXWeb-Book';
+            background-color: $white;
+            margin-bottom: 4rem;
+            padding: 1.812rem;
+            
+            .heading:hover{
+                text-decoration: none !important;
+                text-decoration-style: none;
+            }
+            .heading {
+                
+                font-family: inherit;
+                font-size: 2.625rem;
+                // line-height: 2.812rem;
+                
+                color: $black;
+            }
+            .first__title {
+                font-family: inherit;
+                padding-top: 5.593rem;
+            }
+            .title {
+                font-family: inherit;
+                font-size: 1.562rem;
+            }
+            .second_title {
+                font-family: inherit;
+                padding-bottom: 1.4685rem;
+            }
+        }
+    }
+    .main_container_dashboard_col5 {
+        .card_row5{
+            padding-top: 3.125rem;
+        }
+        
+    }
+    .img_container{
+        padding-top: 5rem;
+    }
+}
+//Media Queries
+@media screen and (min-width: 767px) {
+    .personal_container_day_time{
+        .personal_container_time{
+            padding-right:3.125rem;
+        }
+    }
+    .set__margin {
+        margin-bottom: 3.125rem;
+    }
+    .img_container{
+        padding-top: 9.375rem;
+    }
+    .main_container_dashboard_col3 {
+        .card_row4 {
+            padding-top: 3.125rem;
+        }
+    }
+    
+    .main_container_dashboard_col2 {
+        margin-left: 3.125rem;
+        
+        .card_row2 {
+            padding-top: 3.125rem;
+        }
+    }
+    .main_container_col12{
+        // margin-left: 3.125rem;
+        border-left-width: 1px;
+        border-style: solid;
+        border-left-color: rgba(0, 0, 0, 0.15)!important;
+        .main_subcontainer_timeline{
+            padding-left: 3.125rem;
+        }
+    }
+    .main_container_dashboard_col4 {
+        margin-left: 3.125rem;
+        padding: 2.468rem;
+    }
+    .main_container_dashboard_col5 {
+        padding: 3.125rem;
+    }
+    .main_container_dashboard_col7,
+    .main_container_dashboard_col9 {
+        padding-left: 3.125rem;
+    }
+    .card__row {
+        @include flex(center, space-between, row);
+        .small__card {
+            width: calc(50% - 1.5625rem);
+            flex-direction: column;
+            background-color: $white;
+            padding: 1.812rem 1.812rem;
+            font-family: 'CircularXXWeb-Book';
+            
+            .heading {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 2.625rem !important;
+                color: $black;
+                font-family: inherit;
+                // max-height: 56px;
+                line-height: 2.8125rem;
+            }
+            .first__title {
+                font-family: inherit;
+                padding-top: 5.593rem;
+            }
+            .title {
+                font-size: 1.5625rem;
+                font-family: inherit;
+                line-height: 1.875rem;
+            }
+            
+        }
+    }
+}
+.main_container_dashboard_col4 {
+    width: 100%;
+    padding: 2.468rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+    .cardtitle__subtitle__container {
+        @include flex(center, space-between, row);
+        font-family: 'CircularXXWeb-Book';
+        .card_title {
+            max-width: 31.3rem;
+            line-height: 5rem;
+            font-size: 5rem;
+            letter-spacing: 0rem;
+            font-family:inherit;
+        }
+        .card_subtitle {
+            font-size: 1.25rem;
+            align-self: flex-start;
+            font-family: inherit;
+        }
+    }
+    .card_subtext {
+        padding-top: 10.9rem;
+        font-family: 'CircularXXWeb-Book';
+        .card_subtext_1 {
+            font-family: inherit;
+            font-size: 1.5625rem !important;
+        }
+    }
+}

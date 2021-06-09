@@ -1,0 +1,51 @@
+.student__classes__tutor {
+    .menu__type2__container {
+        .navigation {
+            ul {
+                li {
+                    .icon-button {
+                        .icon {
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .total__classes {
+        margin-bottom: 2rem;
+    }
+    .show__more__wrapper {
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        .show__more__contianer {
+            @include flex(center, space-between, row);
+            width: 35%;
+            .title {
+                font-family: 'CircularXXMonoWeb-Regular';
+                font-weight: 0.9rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+.classes_page {
+    padding: 0 3.062rem;
+    div.menu__type2__container {
+        .navigation {
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: -1.3rem;
+            margin-right: -1.3rem;
+        }
+    }
+    .upcoming__class{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

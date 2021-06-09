@@ -1,0 +1,79 @@
+.tutor_exams_container{
+    font-family: 'CircularXXWeb-Book';
+    .tutor_exams_subcontainer{
+        padding: 0 4.0625rem;
+        margin-top: 3.75rem;
+    }
+    .examsText{
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+        cursor: pointer;
+    }
+    .examsLargeText{
+        font-family: inherit;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    .examsSmallText{
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+    }
+    .submit_result_container{
+        @include flex(center,space-between,row);
+        .submit_marks_button{
+            padding: 0.5rem 0.9375rem;
+            border-style: solid;
+            border-color: rgba(0,0,0,0.25);
+            border-width: 1px;
+        }
+    }
+    .examsSmallGreyText{
+        font-family: inherit;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+        color: #5F5F5F;
+    }
+    .results_desc_container{
+        margin-top: 0.875rem;
+    }
+    .show_tutor_resNumber{
+        padding-top: 3.125rem;
+    }
+    .reusable_results_description_container{
+        .exams_subcontainer1{
+            padding-top: 3.125rem;
+        }
+        .exams_subcontainer2{
+            padding-top: 1.3125rem;
+        }
+        .exams_subcontainer3{
+            padding-top: 1.75rem;
+            padding-bottom: 1rem;
+        }
+    }
+    .exams_horizontalline{
+        border-top-color: rgba(0,0,0,0.25);
+        border-top-style: solid;
+        border-top-width: 1px;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and(min-width:767px) {
+    .tutor_exams_result_container{
+        padding-left: 3.125rem;
+    }
+    .examsleftBorder{
+        border-left-style: solid;
+        border-left-width:1px;
+        border-left-color: rgba(0,0,0,0.25);
+    }
+}
+@media screen and(max-width:767px){
+    .tutor_exams_result_container{
+        padding-top: 3.125rem;
+    }
+    
+}

@@ -1,0 +1,211 @@
+.profile_container {
+    .profile_container_1 {
+        // padding: 0 3.125rem;
+        padding: 0 4.0625rem;
+        font-family: 'CircularXXWeb-Book';
+        margin-top: 3.8125rem;
+        &_text1 {
+            font-family: inherit;
+            font-size: 1.5625rem;
+            line-height: 1.875rem;
+        }
+        &_text2 {
+            font-family: inherit;
+            font-size: 2.625rem;
+            line-height: 2.8125rem;
+        }
+        .horizontalline {
+            border-top-width: 1px;
+            border-top-color: #cfcfcf;
+            border-top-style: solid;
+            margin-top: 5.375rem;
+        }
+        &_2 {
+            font-family: 'CircularXXWeb-Book';
+            margin-top: 5.625rem;
+            &_text1 {
+                font-family: inherit;
+                font-size: 2.625rem;
+                line-height: 2.8125rem;
+            }
+
+            &_subcontainer1 {
+                font-family: 'CircularXXWeb-Book';
+                .subtext1 {
+                    font-family: inherit;
+                    font-size: 1.5625rem;
+                    line-height: 2.0625;
+                }
+                &_row1 {
+                    font-family: 'CircularXXWeb-Book';
+                    .subtext2 {
+                        font-family: inherit;
+                        padding-top: 1.8125rem;
+                        font-size: 1.5625rem;
+                        line-height: 2.0625rem;
+                    }
+                    .subtext3 {
+                        font-family: inherit;
+                        font-size: 1.5625rem;
+                        line-height: 2.0625rem;
+                    }
+                }
+            }
+            &_subcontainer2 {
+                font-family: 'CircularXXWeb-Book';
+                .subtext1 {
+                    font-family: inherit;
+                    font-size: 1.5625rem;
+                    line-height: 2.0625;
+                }
+                &_row2 {
+                    padding-top: 1.8125rem;
+                    font-family: 'CircularXXWeb-Book';
+                    .subtext2 {
+                        font-family: inherit;
+                        font-size: 1.5625rem;
+                        line-height: 2.0625rem;
+                    }
+                    .subtext3 {
+                        font-family: inherit;
+                        font-size: 1.5625rem;
+                        line-height: 2.0625rem;
+                    }
+                }
+            }
+            .border-coloumn2 {
+                border-left-width: 1px;
+                border-left-color: #cfcfcf;
+                border-style: solid;
+            }
+            &_subcontainer3 {
+                padding-top: 5.375rem;
+                width: 100%;
+            }
+        }
+    }
+}
+.reusable_skills_container {
+    font-family: 'CircularXXWeb-Book';
+    .skillTag_text {
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 2.0625rem;
+    }
+    .skills {
+        padding: 1.5rem 0.99rem;
+        display: flex;
+        justify-content: flex-start;
+        font-family: 'CircularXXWeb-Book';
+        .skillset {
+            font-family: inherit;
+            margin-right: 1rem;
+            margin-top: 1rem;
+            padding: 0.9rem;
+            font-size: 1.25rem;
+            line-height: 1.5625rem;
+            border-width: 1px;
+            border-color: #cfcfcf;
+            border-style: solid;
+        }
+    }
+}
+.profile_footer {
+    background-color: white !important;
+    padding-top: 9.06rem;
+    .footer {
+        background-color: white !important;
+    }
+}
+@media screen and (min-width: 768px) {
+    .profile_container_1 {
+        &_subcontainer {
+            padding: 0 3.125rem;
+        }
+    }
+    .profile_container_1_2 {
+        &_subcontainer1,
+        &_subcontainer2,
+        &_subcontainer3 {
+            padding: 0 3.125rem;
+        }
+    }
+    .profile_container_1_2{
+        &_subcontainer3{
+            &_row3 {
+                padding: 1.8125rem 0;
+                border-top-width: 1px;
+                border-top-color: #cfcfcf;
+                border-style: solid;
+            }
+        }
+    }
+    .border-coloumn1 {
+        border-left-width: 1px;
+        border-left-color: #cfcfcf;
+        border-style: solid;
+    }
+    .profile_horizontalline{
+        border-top-color: rgba(0,0,0,0.25);
+        border-top-style: solid;
+        border-top-width: 1px;
+        margin-top: 5.375rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .profile_container_1 {
+        &_text1 {
+            padding-top: 2rem;
+        }
+    }
+    .profile_container_1_2 {
+        &_subcontainer3 {
+            &_row3{
+                .small_screen_padding{
+                    padding-left:15px;
+                }
+               
+            }
+        }
+        .about_tag{
+            display: none;
+        }
+    }
+    .top_sm_border_container{
+        padding-right: 2rem;
+    }
+    .left_sm_border{
+        border-left-color: rgba(0,0,0,0.25);
+        border-left-style: solid;
+        border-left-width: 1px;
+    }
+
+    .top_sm_border{
+        margin-bottom: 2rem;
+        
+        border-top-color: rgba(0,0,0,0.25);
+        border-top-width: 1px;
+        border-top-style: solid;
+    }
+    .borderTop{
+        border-top-color: rgba(0,0,0,0.25);
+        border-top-width: 1px;
+        border-top-style: solid;
+    }
+    .profile_container_1_2 {
+        &_subcontainer2 {
+            padding: 0 1.125rem;
+        }
+        &_text1 {
+            padding-bottom: 2rem;
+        }
+        .experience_border{
+            border-top-color: rgba(0,0,0,0.25);
+            border-top-width: 1px;
+            border-top-style: solid;
+            // padding-bottom: 2rem;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.student-comment-container{
+    padding: 0 3.125rem;
+    margin-top: 3.75rem;
+    font-family: 'CircularXXWeb-Book';
+    .student-comment-header{
+        display: flex;
+    }
+    .student-comment-main-text {
+        font-family: inherit;
+        font-size: 2.625rem;
+    }
+    .student-comment-text1,.student-comment-text2{
+        font-size: 4.234rem;
+        line-height: 5rem;
+    }
+    .header_content_3{
+        display: flex;
+        .signal-text{
+            margin : 1rem 1.5rem 0 0;
+            font-size: 1.05rem;
+            font-weight: 500;
+        }
+        .school-time-signal{
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: .4rem;
+        }
+    }
+
+    .comment_horizontalline{
+        border-top-color: rgba(0, 0, 0, 0.25);
+        border-top-style: solid;
+        border-top-width: 1px;
+        margin-top: 6.432rem;
+        margin-bottom: 3.125rem;
+    }
+    .student-comment-subtext{
+       
+        color: #000000;
+        font: normal normal normal 25px/30px CircularXXWeb;
+    }
+    .form-div{
+        padding: 0 1.125rem !important;
+    }
+    .add_button {
+        padding: 0.5rem 3.5625rem;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.25);
+        border-width: 1px;
+        width: fit-content;
+        margin: 2.234rem 0 2.234rem .812rem;
+    }
+}

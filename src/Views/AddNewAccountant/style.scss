@@ -1,0 +1,35 @@
+.student-container{
+    padding:6rem;
+    @include flex(center, center, column);
+    .gray-btn{
+        background-color: $darkGray;
+        color: $white;
+        font-size: 0.8rem;
+        text-transform: capitalize;
+        font-weight: 100;
+        width: 18rem;
+        &:hover{
+        background-color: $darkGray;
+        }
+    }
+    .student-form-row{
+        @include flex(center, space-between, row);
+        .row{
+
+            width: calc(100% - 2.5rem);
+        }
+        .button-container{
+            border-radius: 0.8rem;
+            width: 2.8rem;
+            height: 2.8rem;
+            background-color: #25BDB3;
+            align-self: baseline;
+            .icon-btn{
+                color: $white;
+            }
+        }
+        .delete-btn{
+            background-color: #FF5252;
+        }
+    }
+}

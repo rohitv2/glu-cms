@@ -1,0 +1,13 @@
+.upload-file-container{
+    @include flex(center, flex-start, row);
+    margin-bottom: 1rem;
+    .file-name-container{
+        .file-name{
+            font-size: 0.9rem;
+        }
+    }
+    button{
+        font-size: 0.8rem;
+        font-weight:100;
+    }
+}

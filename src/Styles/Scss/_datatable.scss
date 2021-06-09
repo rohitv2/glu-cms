@@ -1,0 +1,213 @@
+// data table style
+div.MuiPaper-elevation2 {
+    box-shadow: none;
+    div {
+        div {
+            div {
+                @include disableScroll;
+            }
+        }
+    }
+    tr.MuiTableRow-root {
+        &:last-child {
+            td.MuiTableCell-root {
+                border-bottom: none;
+            }
+        }
+        td.MuiTableCell-root {
+            font-size: 1.25rem !important;
+        }
+    }
+    td.MuiTableCell-root {
+        // padding-left: 0;
+        // padding-right: 0;
+        font-weight: 500;
+        color: $darkGray !important;
+        .MuiCheckbox-colorSecondary.Mui-checked {
+            color: $primary;
+        }
+    }
+    tr.MuiTableRow-root {
+        td.MuiTableCell-root {
+            span.MuiCheckbox-root {
+                padding: 0;
+            }
+        }
+    }
+    .MuiTablePagination-toolbar {
+        @include flex(center, space-between, row);
+        border-top: 1px solid $borderColor;
+        .MuiTablePagination-spacer {
+            display: none;
+        }
+        .MuiTablePagination-selectRoot {
+            .MuiSelect-selectMenu {
+                font-size: 1.25rem;
+                font-family: 'CircularXXWeb-Book';
+            }
+        }
+    }
+    td.MuiTablePagination-root {
+        border-bottom: none;
+    }
+    .card-table-data {
+        display: none;
+    }
+    .MuiTypography-caption {
+        font-size: 1.25rem;
+        color: $darkGray;
+    }
+    th.MuiTableCell-root span.MuiTableSortLabel-active {
+        color: $primary;
+    }
+    th.MuiTableCell-root
+        span.MuiTableSortLabel-root.MuiTableSortLabel-active.MuiTableSortLabel-root.MuiTableSortLabel-active
+        .MuiTableSortLabel-icon {
+        color: $primary;
+    }
+}
+
+th.MuiTableCell-root {
+    background-color: $white;
+    color: $titleGray;
+    font-size: 1.125rem !important;
+    font-family: 'CircularXXWeb-Regular';
+    .MuiCheckbox-root {
+        padding: 0 !important;
+    }
+    span {
+        &:hover {
+            color: $primary !important;
+        }
+    }
+    .MuiCheckbox-colorSecondary.Mui-checked {
+        color: $primary;
+    }
+    span {
+        &:hover {
+            color: $white;
+        }
+    }
+    span.MuiTableSortLabel-active {
+        color: $white;
+    }
+    span.MuiTableSortLabel-root.MuiTableSortLabel-active.MuiTableSortLabel-root.MuiTableSortLabel-active
+        .MuiTableSortLabel-icon {
+        color: $white;
+    }
+}
+
+.Component-horizontalScrollContainer-11 {
+    div {
+        div {
+            @include disableScroll;
+        }
+    }
+}
+
+//overriding style for dashboard table data
+.dashboard-table-container {
+    // data table style
+    div.MuiPaper-elevation2 {
+        box-shadow: none;
+        div {
+            &:nth-child(2) {
+                div {
+                    div {
+                        @include disableScroll;
+                    }
+                }
+            }
+        }
+        tr.MuiTableRow-root {
+            td.MuiTableCell-root {
+                &:first-child {
+                    padding-left: 1rem;
+                }
+            }
+
+            td.MuiTableCell-root {
+                background-color: $white;
+                &:first-child {
+                    padding-left: 1rem;
+                }
+            }
+            &:last-child {
+                td.MuiTableCell-root {
+                    border-bottom: none;
+                }
+            }
+        }
+        td.MuiTableCell-root {
+            border-bottom: 1px solid #aaacad;
+            background-color: #e5effb;
+            font-weight: 100;
+            font-size: 1.25rem !important;
+            color: $black !important;
+            padding: 0.5rem 1rem;
+        }
+        td.MuiTablePagination-root {
+            background-color: $white;
+            border-bottom: none;
+        }
+        .card-table-data {
+            display: none;
+        }
+    }
+
+    th.MuiTableCell-root {
+        background-color: $white;
+        color: #7d7d7e;
+        font-weight: 600;
+        font-size: 1.125rem !important;
+        span {
+            &:hover {
+                color: $darkGray;
+            }
+        }
+        span.MuiTableSortLabel-active {
+            color: $darkGray;
+        }
+        span.MuiTableSortLabel-root.MuiTableSortLabel-active.MuiTableSortLabel-root.MuiTableSortLabel-active
+            .MuiTableSortLabel-icon {
+            color: $darkGray;
+        }
+    }
+
+    .search-box-container {
+        .export-btn {
+            background-color: transparent;
+            color: $primary;
+            font-size: 1.25rem;
+            padding: 0.5rem 0.9rem;
+            border-radius: 0.3rem;
+            font-weight: 100;
+            text-transform: capitalize;
+            .icon {
+                font-size: 1.25rem;
+            }
+        }
+        input.search-box {
+            border: 1px solid $primary;
+            &:focus {
+                outline-color: $primary;
+            }
+        }
+    }
+}
+
+.bold__border_table {
+    div.MuiPaper-elevation2 {
+        th.MuiTableCell-root {
+            border-bottom: 2px solid #d7d7d7;
+            padding-bottom: 0.5rem;
+        }
+        tr.MuiTableRow-root {
+            td.MuiTableCell-root {
+                span.MuiCheckbox-root {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

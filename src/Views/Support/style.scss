@@ -1,0 +1,170 @@
+.content-wrapper {
+    .header-banner {
+        display: flex;
+        height: 90vh;
+        .Navigation__Menu__Container {
+            background-color: #000;
+            .close-icon-btn {
+                .icon {
+                    color: $white;
+                }
+            }
+            .menu-list-container {
+                ul {
+                    list-style: none;
+                    li {
+                        a {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            .bottom-container {
+                .title {
+                    a {
+                        color: $white;
+                    }
+                }
+            }
+        }
+        .menus-container {
+            .left {
+                ul {
+                    li {
+                        button {
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+            .right {
+                .title {
+                    color: #000000;
+                }
+            }
+        }
+        .support-header-banner {
+            width: 100%;
+            display: flex;
+
+            justify-content: center;
+            height: 90vh;
+            background-color: $bodyColor;
+            .left_title {
+                font-size: 2.625rem;
+                line-height: 2.625rem;
+                color: $black;
+                margin-left: 1.625rem;
+
+                transform: translateY(4.25rem);
+            }
+            .search-container {
+                .title {
+                    font-size: 5rem;
+                    // font-weight: 600;
+                    margin-left: 1.625rem;
+
+                    line-height: 5rem;
+                    transform: translateY(4.25rem);
+                }
+                .supportBoyImage {
+                    height: 25rem;
+                    background-image: url('https://res.cloudinary.com/ddwbbzuxw/image/upload/v1599028758/supportPageBoy_kn0wdj.png');
+                    background-repeat: no-repeat;
+                    margin-top: 8rem;
+                    margin-left: -3.7rem;
+                    width: 100%;
+                }
+            }
+            .email-container {
+                width: 90%;
+                @include flex(center, center, row);
+                border-bottom: 1px solid $grayPrimary;
+                margin-top: 1rem;
+                .email {
+                    width: 100%;
+                    border: none;
+                    font-weight: 500;
+                    margin-bottom: 2px;
+                    color: $gray;
+                    &:focus {
+                        outline-color: rgba(0, 0, 0, 0);
+                    }
+                    &::placeholder {
+                        font-weight: 500;
+                    }
+                }
+                .go {
+                    padding: 0;
+                    min-width: 1.3rem;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+
+    .askSomethingInput {
+        height: 25rem;
+        padding: 1.625rem;
+        color: #404040;
+        margin-bottom: 4rem;
+        .left_title {
+            font-size: 2.625rem;
+            line-height: 2.625rem;
+            color: $black;
+        }
+        .rightInputContainer {
+            .commonQuestions {
+                transform: translateY(4rem);
+                ul {
+                    list-style-type: none;
+                    li {
+                        font-size: 1.5rem;
+                        font-weight: 200;
+                        p {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .theme-section {
+        padding: 1.5rem;
+    }
+    .accordion-container {
+        padding: 1.5rem;
+        .line {
+            background-color: $grayPrimary;
+        }
+        .freq {
+            font-weight: 300;
+            font-size: 2.5rem;
+            margin-top: 1.6rem;
+        }
+        .accord-container {
+            padding-left: 1rem;
+            border-left: 1px solid $grayPrimary;
+
+            .accord {
+                box-shadow: none;
+                .icon {
+                    color: #000000;
+                    
+                }
+                .ques {
+                    font-weight: 300;
+                    font-size: 2.6rem;
+                    color: $fontColorDarkGray;
+                    padding: 1rem 0;
+                }
+                .ans {
+                    font-weight: 400;
+                    font-size: 1.8rem;
+                    color: $fontColorLighterGray;
+                }
+            }
+        }
+    }
+}

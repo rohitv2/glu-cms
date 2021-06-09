@@ -1,0 +1,1 @@
+export const student = ['first_name', 'last_name', 'email', 'class', 'section'];

@@ -1,0 +1,177 @@
+.tutor_upcoming_class_subcontainer_1 {
+    padding: 0 3.125rem;
+    background-color: #f7f7f7;
+    font-family: 'CircularXXWeb-Book';
+    &_1 {
+        padding-top: 5rem;
+        padding-bottom: 6rem;
+    }
+    &_2 {
+        .tutor_upcoming_editDelete_container {
+            padding-top: 5rem;
+            display: flex;
+            justify-content: flex-start;
+            font-family: 'CircularXXWeb-Book';
+            .edit_text {
+                font-family: inherit;
+                font-size: 1.25rem;
+                line-height: 1.875rem;
+            }
+            .delete_text {
+                font-family: inherit;
+                font-size: 1.25rem;
+                line-height: 1.875rem;
+                margin-left: 1.3125rem;
+            }
+        }
+        padding-bottom: 9rem;
+    }
+
+    .upcomingText {
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+    }
+    .upcomingBigText {
+        font-family: inherit;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+}
+.tutor_upcoming_class_subcontainer_2 {
+    padding-top: 5.28rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    padding-bottom: 3.656rem;
+}
+.tutor_upcoming_class_subcontainer_3{
+    padding: 5rem 3.125rem;
+}
+.tutor_upcoming_class_subcontainer_4{
+    padding-left:3.125rem;
+    padding-right: 3.125rem;
+    padding-top: 5rem;
+}
+.tutor_upcoming_playbanner{
+    padding-top: 3.125rem;
+}
+.class_student_div{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3.125rem;
+    padding-left: 4.125rem;
+    flex-wrap: wrap;
+        .class_student_name{
+            font-family: inherit;
+            font-size: 1.25rem !important;
+            line-height: 1.8125rem !important;
+            border: 1px solid #cfcfcf;
+            padding: .9rem;
+            margin-right: 1rem;
+    }
+}
+
+.bigBanner_reusable {
+    font-family: 'CircularXXWeb-Book';
+    .bigBanner_Text {
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 2.8125rem;
+    }
+    .bigBannerDesc_Text {
+        font-family: inherit;
+        font-size: 2.625rem;
+        line-height: 3.125rem;
+    }
+}
+.tags_container_reusable {
+    font-family: 'CircularXXWeb-Book';
+    .tagText {
+        font-family: inherit;
+        font-size: 1.5625rem;
+        line-height: 2.0625rem;
+    }
+}
+.student_list_reusable{
+    
+    .student_number{
+        font-family: 'CircularXXWeb-Book';
+        .student_number_text{
+            font-family: inherit;
+            font-size: 2.625rem;
+            line-height: 2.8125rem;
+
+        }
+    }
+    font-family: 'CircularXXWeb-Book';
+    .student_name_text{
+        font-family: inherit;
+        font-size:1.5625rem;
+        line-height: 1.875rem;
+    }
+    .right_border{
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: rgba(0, 0, 0, 0.25);
+    }
+    .student_list_reusable_display{
+        padding-top: 3.125rem;
+    }
+    .right_container{
+        padding-left: 3.125rem;
+    }
+    .students_left_border{
+        border-left-style: solid;
+        border-left-color: rgba(0, 0, 0, 0.25);
+        border-left-width: 1px;   
+    }
+}
+
+.invite_student_button{
+    padding-top: 5.84375rem;
+    display: block;
+    margin-left: 15px;
+    .invite_button{
+        padding: 0.5rem 3.1875rem;
+        border-color:rgba(0, 0, 0, 0.25);
+        border-style: solid;
+        font-family: 'CircularXXWeb-Book';
+        border-width: 1px;
+        .invite_text{
+            font-family: inherit;
+            font-size: 1.25rem;
+            line-height: 1.5725rem;
+        }
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .tutor_upcoming_bigBanner,
+    .tutor_upcoming_bigText_container,
+    .tutor_upcoming_image_container,
+    .tutor_upcoming_tags_container {
+        padding-left: 3.125rem;
+    }
+    .left_border {
+        border-left-style: solid;
+        border-left-color: rgba(0, 0, 0, 0.25);
+        border-left-width: 1px;
+    }
+    .student_list_reusable{
+       
+        .student_list_reusable_display{
+            padding-left:3.125rem;
+            // padding-right:3.125rem;
+        }
+        .student_number{
+            padding-top: 3.125rem;
+        }
+        
+    }
+
+}
+@media screen and(max-width:767px){
+    .tutor_upcoming_tags_container {
+        padding-left: 15px;
+    }
+}
